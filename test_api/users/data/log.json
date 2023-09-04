@@ -1,0 +1,22 @@
+{
+  "status": "success",
+  "data": [
+    {
+      "_id": "64f483f660b7956d00994454",
+      "firstName": "Mark",
+      "lastName": "Nader",
+      "email": "John@gmail.com",
+      "address": [],
+      "role": "Admin",
+      "wishList": [],
+      "isBlocked": false,
+      "photo": "john-01.jpg",
+      "phoneNumber": "258963",
+      "cart": [],
+      "createdAt": "2023-09-03T13:02:46.439Z",
+      "updatedAt": "2023-09-03T16:22:07.148Z",
+      "__v": 0,
+      "passwordChangedAt": "2023-09-03T15:41:44.369Z"
+    }
+  ]
+}

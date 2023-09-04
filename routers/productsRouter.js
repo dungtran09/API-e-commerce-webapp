@@ -1,0 +1,56 @@
+const express = require("express");
+const productsController = require("../controllers/productsController");
+const authsController = require("../controllers/authsController");
+const uploadCloud = require("../config/cloudinary.config");
+
+const router = express.Router();
+
+// PRODUCTS STATS
+// router.route("/product-stats").get(productsController.getProductsStats);
+
+router
+  .route("/ratings/:id")
+  .put(
+    authsController.protect,
+    authsController.restrictTo("Admin", "Guide"),
+    productsController.ratingsProduct,
+  );
+router
+  .route("/")
+  .get(
+    authsController.protect,
+    authsController.restrictTo("Admin", "Guide"),
+    productsController.getAllProducts,
+  )
+  .post(
+    authsController.protect,
+    authsController.restrictTo("Admin", "Guide"),
+    productsController.createProduct,
+  );
+router
+  .route("/:id")
+  .get(
+    authsController.protect,
+    authsController.restrictTo("Admin", "Guide"),
+    productsController.getProduct,
+  )
+  .patch(
+    authsController.protect,
+    authsController.restrictTo("Admin", "Guide"),
+    productsController.updateProduct,
+  )
+  .delete(
+    authsController.protect,
+    authsController.restrictTo("Admin", "Guide"),
+    productsController.deleteProduct,
+  );
+router
+  .route("/uploadImagesProduct/:id")
+  .put(
+    authsController.protect,
+    authsController.restrictTo("Admin", "Guide"),
+    uploadCloud.array("images", 10),
+    productsController.uploadImagesProduct,
+  );
+
+module.exports = router;

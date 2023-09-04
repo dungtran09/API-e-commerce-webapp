@@ -1,0 +1,10 @@
+{
+  "firstName": "John",
+  "lastName": "John",
+  "email": "John@gmail.com",
+  "photo": "john-01.jpg",
+  "phoneNumber": "258963",
+  "role": "Admin",
+  "password": "John1234",
+  "passwordConfirm": "John1234"
+}
