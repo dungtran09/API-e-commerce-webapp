@@ -94,7 +94,7 @@ exports.ratingsProduct = asyncErrorHandler(async (req, res, next) => {
    * */
 
   const productRated = productToRating?.ratings?.find(
-    (ele) => el.postedBy === _id,
+    (ele) => ele.postedBy === _id,
   );
 
   if (productRated) {
@@ -108,7 +108,7 @@ exports.ratingsProduct = asyncErrorHandler(async (req, res, next) => {
       { new: true },
     );
   } else {
-    const productToRating = await Product.findByIdAndUpdate(
+    await Product.findByIdAndUpdate(
       pid,
       {
         $push: { ratings: { star, comment, postedBy: _id } },
@@ -120,10 +120,10 @@ exports.ratingsProduct = asyncErrorHandler(async (req, res, next) => {
     const productRated = await Product.findById(pid);
     const countRatings = productRated.ratings.length;
     const totalRatings = productRated.ratings.reduce(
-      (sum, ele) => sum + el.star,
+      (sum, ele) => sum + ele.star,
       0,
     );
-    productRated.totaRatings =
+    productRated.totalRatings =
       Math.round((totalRatings * 10) / countRatings) / 10;
 
     await productRated.save();
@@ -141,7 +141,7 @@ exports.uploadImagesProduct = asyncErrorHandler(async (req, res, next) => {
   const product = await Product.findByIdAndUpdate(
     req.params.id,
     {
-      $push: { $images: { $each: req.files.map((el) => el.path) } },
+      $push: { $images: { $each: req.files.map((ele) => ele.path) } },
     },
     { new: true },
   );

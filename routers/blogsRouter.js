@@ -17,6 +17,7 @@ router
     authsController.restrictTo("Admin", "Guide", "Creator"),
     blogsController.createBlog,
   );
+
 router
   .route("/:id")
   .get(
@@ -42,6 +43,7 @@ router
     authsController.restrictTo("Admin", "Guide", "Creator"),
     blogsController.likeBlog,
   );
+
 router
   .route("/dislike/:id")
   .patch(
@@ -49,6 +51,7 @@ router
     authsController.restrictTo("Admin", "Guide", "Creator"),
     blogsController.dislikeBlog,
   );
+
 router
   .route("/uploadImageBlog/:id")
   .put(
@@ -57,4 +60,5 @@ router
     uploadCloud.single("image"),
     blogsController.uploadImageBlog,
   );
+
 module.exports = router;

@@ -16,6 +16,7 @@ router
     authsController.restrictTo("Admin", "Guide"),
     couponsController.getAllCoupons,
   );
+
 router
   .route("/:id")
   .get(

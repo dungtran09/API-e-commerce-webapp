@@ -29,7 +29,7 @@ class FeaturesAPI {
       const sortBy = this.queryObj.sort(",").join(" ");
       this.query = this.query.sort(sortBy);
     } else {
-      this.query = this.query.sort("-creatAt");
+      this.query = this.query.sort("-createdAt");
     }
     return this;
   }

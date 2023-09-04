@@ -15,6 +15,7 @@ router
     authsController.restrictTo("Admin", "Guide"),
     productsController.ratingsProduct,
   );
+
 router
   .route("/")
   .get(
@@ -27,6 +28,7 @@ router
     authsController.restrictTo("Admin", "Guide"),
     productsController.createProduct,
   );
+
 router
   .route("/:id")
   .get(
@@ -44,6 +46,7 @@ router
     authsController.restrictTo("Admin", "Guide"),
     productsController.deleteProduct,
   );
+
 router
   .route("/uploadImagesProduct/:id")
   .put(

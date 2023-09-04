@@ -11,6 +11,7 @@ router
     authsController.restrictTo("Admin", "Guide"),
     ordersController.createOrder,
   );
+
 router
   .route("/status/:id")
   .patch(
@@ -18,4 +19,5 @@ router
     authsController.restrictTo("Admin", "Guide"),
     ordersController.updateStatusOrder,
   );
+
 module.exports = router;

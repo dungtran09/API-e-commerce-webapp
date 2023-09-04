@@ -28,11 +28,19 @@ router
 
 router
   .route("/updateAddressUser")
-  .patch(authsController.protect, usersController.updateUserAddress);
+  .patch(
+    authsController.protect,
+    authsController.restrictTo("Admin", "Guide"),
+    usersController.updateUserAddress,
+  );
 
 router
   .route("/updateCart")
-  .patch(authsController.protect, usersController.updateCart);
+  .patch(
+    authsController.protect,
+    authsController.restrictTo("Admin", "Guide"),
+    usersController.updateCart,
+  );
 
 router
   .route("/deleteUser")
@@ -42,7 +50,20 @@ router
     usersController.deleteUser,
   );
 
-router.route("/").get(authsController.protect, usersController.getAllUsers);
-router.route("/:id").get(authsController.protect, usersController.getUser);
+router
+  .route("/")
+  .get(
+    authsController.protect,
+    authsController.restrictTo("Admin", "Guide"),
+    usersController.getAllUsers,
+  );
+
+router
+  .route("/:id")
+  .get(
+    authsController.protect,
+    authsController.restrictTo("Admin", "Guide"),
+    usersController.getUser,
+  );
 
 module.exports = router;

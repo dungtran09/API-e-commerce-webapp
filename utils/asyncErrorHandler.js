@@ -1,7 +1,5 @@
-const asyncErrorHandler = (f) => {
+module.exports = (f) => {
   return (req, res, next) => {
-    f(req, res, next).catch(next);
+    f(req, res, next).catch((err) => next(err));
   };
 };
-
-module.exports = asyncErrorHandler;
