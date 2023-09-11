@@ -4,7 +4,7 @@ const helmet = require("helmet");
 const mongoSanitize = require("express-mongo-sanitize");
 const xss = require("xss-clean");
 const hpp = require("hpp");
-
+const cors = require("cors");
 /*------------------------------------------------------------------------*/
 const express = require("express");
 const morgan = require("morgan");
@@ -23,6 +23,13 @@ const ordersRouter = require("./routers/ordersRouter");
 /*------------------------------------------------------------------------*/
 
 const app = express();
+
+app.use(
+  cors({
+    origin: process.env.CLIENT_URL,
+    methods: ["POST", "PUT", "GET", "PATCH", "DELETE"],
+  }),
+);
 
 //  parses incoming requests with JSON payloads and is based on body-parser.
 app.use(express.json({ limit: "50kb" }));
@@ -49,7 +56,7 @@ app.use(helmet());
 
 // limit rate
 const limiter = rateLimit({
-  max: 100,
+  max: 500,
   windowMs: 60 * 60 * 1000,
   message: "Too many request from this IP, Please try again in an hour.",
 });

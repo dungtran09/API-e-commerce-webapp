@@ -12,6 +12,11 @@ const productSchema = mongoose.Schema(
       trim: true,
       lowercase: true,
     },
+    thumb: {
+      type: String,
+      trim: true,
+      required: [true, "Thumb can not be empty."],
+    },
     images: [String],
     price: {
       type: Number,

@@ -3,6 +3,7 @@
     "category": "Smartphone",
     "name": "XIAOMI MI 5",
     "brand": "XIAOMI",
+    "thumb": "https://cdn.shopify.com/s/files/1/1903/4853/products/z4_1024x1024.jpg?v=1491404851",
     "images": [
       "https://cdn.shopify.com/s/files/1/1903/4853/products/z4_1024x1024.jpg?v=1491404851",
       "https://cdn.shopify.com/s/files/1/1903/4853/products/z1_1024x1024.jpg?v=1491404851",
@@ -25,12 +26,13 @@
     "colors": ["GOLD", "GRAY"],
     "quantity": 74,
     "sold": 20,
-    "totalRatings": 150
+    "totalRatings": 1
   },
   {
     "category": "Smartphone",
     "name": "VIVO V5",
     "brand": "VIVO",
+    "thumb": "https://cdn.shopify.com/s/files/1/1903/4853/products/Untitled-1_31cc1c0e-ac34-4c8e-946a-a5e30acf6b1a_1024x1024.jpg?v=1491404855",
     "images": [
       "https://cdn.shopify.com/s/files/1/1903/4853/products/Untitled-1_31cc1c0e-ac34-4c8e-946a-a5e30acf6b1a_1024x1024.jpg?v=1491404855",
       "https://cdn.shopify.com/s/files/1/1903/4853/products/vivo-v5-1_1024x1024.jpg?v=1491404855",
@@ -52,12 +54,13 @@
     "colors": ["GOLD", "GRAY"],
     "quantity": 150,
     "sold": 50,
-    "totalRatings": 250
+    "totalRatings": 2
   },
   {
     "category": "Smartphone",
     "name": "SONY XPERIA XA",
     "brand": "SONY",
+    "thumb": "https://cdn.shopify.com/s/files/1/1903/4853/products/xperia-xa-white-D1-hero-image-35f68ba1669ba23b989e7519e4a1660d_1024x1024.jpg?v=1491404881",
     "images": [
       "https://cdn.shopify.com/s/files/1/1903/4853/products/xperia-xa-white-D1-hero-image-35f68ba1669ba23b989e7519e4a1660d_1024x1024.jpg?v=1491404881",
       "https://cdn.shopify.com/s/files/1/1903/4853/products/sony-xperia-xz_1024x1024.jpg?v=1491404881",
@@ -80,12 +83,13 @@
     "colors": ["MINERAL BLACK", "PLATINUM", "FOREST BLUE", "DEEP PINK"],
     "quantity": 75,
     "sold": 15,
-    "totalRatings": 140
+    "totalRatings": 3
   },
   {
     "category": "Smartphone",
     "name": "SAMSUNG GALAXY S7",
     "brand": "SAMSUNG",
+    "thumb": "https://cdn.shopify.com/s/files/1/1903/4853/products/samsung-galaxy-s7-and-s7-edge-unveiled-with-refined-design-performance-boost-500729-4_1024x1024.jpg?v=1491404832",
     "images": [
       "https://cdn.shopify.com/s/files/1/1903/4853/products/samsung-galaxy-s7-and-s7-edge-unveiled-with-refined-design-performance-boost-500729-4_1024x1024.jpg?v=1491404832",
       "https://cdn.shopify.com/s/files/1/1903/4853/products/samsung_galaxys7_heroCard_foreground_1024x1024.png?v=1491404832",
@@ -108,12 +112,13 @@
     "colors": ["BLACK", "GOLD"],
     "quantity": 130,
     "sold": 98,
-    "totalRatings": 147
+    "totalRatings": 4
   },
   {
     "category": "Smartphone",
     "name": "SAMSUNG GALAXY J7 PRIME",
     "brand": "SAMSUNG",
+    "thumb": "https://cdn.shopify.com/s/files/1/1903/4853/products/Untitled-1_1024x1024.jpg?v=1491404895",
     "images": [
       "https://cdn.shopify.com/s/files/1/1903/4853/products/Untitled-1_1024x1024.jpg?v=1491404895",
       "https://cdn.shopify.com/s/files/1/1903/4853/products/samsung-galaxy-j7-prime-1_1024x1024.jpg?v=1491404895",
@@ -136,12 +141,13 @@
     "colors": ["BLACK", "GOLD"],
     "quantity": 127,
     "sold": 65,
-    "totalRatings": 47
+    "totalRatings": 5
   },
   {
     "category": "Smartphone",
     "name": "LG G5",
     "brand": "LG",
+    "thumb": "https://cdn.shopify.com/s/files/1/1903/4853/products/modular-type-1600x840_G5_M01C_1024x1024.jpg?v=1491404872",
     "images": [
       "https://cdn.shopify.com/s/files/1/1903/4853/products/modular-type-1600x840_G5_M01C_1024x1024.jpg?v=1491404872",
       "https://cdn.shopify.com/s/files/1/1903/4853/products/lg-g5-3_1024x1024.jpg?v=1491404872",
@@ -165,12 +171,13 @@
     "colors": ["BLACK", "GOLD"],
     "quantity": 30,
     "sold": 14,
-    "totalRatings": 25
+    "totalRatings": 1
   },
   {
     "category": "Smartphone",
     "name": "IPHONE 7",
     "brand": "IPHONE",
+    "thumb": "https://cdn.shopify.com/s/files/1/1903/4853/products/iphone_1024x1024.jpg?v=1491404827",
     "images": [
       "https://cdn.shopify.com/s/files/1/1903/4853/products/iphone_1024x1024.jpg?v=1491404827",
       "https://cdn.shopify.com/s/files/1/1903/4853/products/1_83bd7ced-da1e-4701-afac-cc3c61ea1a51_1024x1024.jpg?v=1491404827",
@@ -194,12 +201,13 @@
     "colors": ["BLACK", "GOLD", "WHITE"],
     "quantity": 144,
     "sold": 68,
-    "totalRatings": 175
+    "totalRatings": 2
   },
   {
     "category": "Smartphone",
     "name": "HTC 10",
     "brand": "HTC",
+    "thumb": "https://cdn.shopify.com/s/files/1/1903/4853/products/z1_1_1024x1024.jpg?v=1491404913",
     "images": [
       "https://cdn.shopify.com/s/files/1/1903/4853/products/HTC-10-1_1024x1024.jpg?v=1491404875",
       "https://cdn.shopify.com/s/files/1/1903/4853/products/htc-10-5_1024x1024.jpg?v=1491404875",
@@ -221,12 +229,13 @@
     "colors": ["CARBON GRAY", "TOPAZ GOLD", "GLACIER SILVER", "CAMELLIA RED"],
     "quantity": 78,
     "sold": 35,
-    "totalRatings": 63
+    "totalRatings": 3
   },
   {
     "category": "Smartphone",
     "name": "GOOGLE PIXEL",
     "brand": "GOOGLE",
+    "thumb": "https://cdn.shopify.com/s/files/1/1903/4853/products/HTC-10-1_1024x1024.jpg?v=1491404875",
     "images": [
       "https://cdn.shopify.com/s/files/1/1903/4853/products/u3_1024x1024.jpg?v=1491404903",
       "https://cdn.shopify.com/s/files/1/1903/4853/products/u2_1024x1024.jpg?v=1491404903",
@@ -253,12 +262,13 @@
     "colors": ["QUITE BLACK", "VERY SILVER", "REALLY BLUE"],
     "quantity": 110,
     "sold": 89,
-    "totalRatings": 55
+    "totalRatings": 4
   },
   {
     "category": "Tablet",
     "name": "XIAOMI MI PAD 3",
     "brand": "XIAOMI",
+    "thumb": "https://cdn.shopify.com/s/files/1/1903/4853/products/u3_1024x1024.jpg?v=1491404903",
     "images": [
       "https://cdn.shopify.com/s/files/1/1903/4853/products/Untitled-1_1_1024x1024.jpg?v=1491404888",
       "https://cdn.shopify.com/s/files/1/1903/4853/products/SS6_1024x1024.jpg?v=1491404888",
@@ -282,12 +292,13 @@
     "colors": ["SILVER", "GRAY", "GOLD"],
     "quantity": 250,
     "sold": 98,
-    "totalRatings": 95
+    "totalRatings": 5
   },
   {
     "category": "Tablet",
     "name": "SONY XPERIA Z4 TABLET LTE",
     "brand": "SONY",
+    "thumb": "https://cdn.shopify.com/s/files/1/1903/4853/products/Untitled-1_1_1024x1024.jpg?v=1491404888",
     "images": [
       "https://cdn.shopify.com/s/files/1/1903/4853/products/Untitled-11_1024x1024.jpg?v=1491404927",
       "https://cdn.shopify.com/s/files/1/1903/4853/products/sony-xperia-z4-tablet-1_1024x1024.jpg?v=1491404927",
@@ -311,12 +322,13 @@
     "colors": ["BLACK", "WHITE"],
     "quantity": 45,
     "sold": 8,
-    "totalRatings": 65
+    "totalRatings": 1
   },
   {
     "category": "Tablet",
     "name": "SAMSUNG GALAXY TAB S 8.4 LTE",
     "brand": "SAMSUNG",
+    "thumb": "https://cdn.shopify.com/s/files/1/1903/4853/products/Untitled-11_1024x1024.jpg?v=1491404927",
     "images": [
       "https://cdn.shopify.com/s/files/1/1903/4853/products/ss8_1024x1024.jpg?v=1491404867",
       "https://cdn.shopify.com/s/files/1/1903/4853/products/samsung-galaxy-tab-s-84-1_1024x1024.jpg?v=1491404867",
@@ -338,12 +350,13 @@
     "colors": ["DAZZLING WHITE", "TITANIUM BRONZE"],
     "quantity": 23,
     "sold": 98,
-    "totalRatings": 45
+    "totalRatings": 2
   },
   {
     "category": "Tablet",
     "name": "LG G PAD III 101 FHD",
     "brand": "LG",
+    "thumb": "https://cdn.shopify.com/s/files/1/1903/4853/products/ss8_1024x1024.jpg?v=1491404867",
     "images": [
       "https://cdn.shopify.com/s/files/1/1903/4853/products/Untitled-2_1024x1024.jpg?v=1491404930",
       "https://cdn.shopify.com/s/files/1/1903/4853/products/Untitled-3_1024x1024.jpg?v=1491404930"
@@ -364,12 +377,13 @@
     "colors": [],
     "quantity": 50,
     "sold": 75,
-    "totalRatings": 56
+    "totalRatings": 3
   },
   {
     "category": "Tablet",
     "name": "LENOVO YOGA TAB 3 PLUS",
     "brand": "LENOVO",
+    "thumb": "https://cdn.shopify.com/s/files/1/1903/4853/products/Untitled-2_1024x1024.jpg?v=1491404930",
     "images": [
       "https://cdn.shopify.com/s/files/1/1903/4853/products/ss3_1024x1024.jpg?v=1491404819",
       "https://cdn.shopify.com/s/files/1/1903/4853/products/lenovo-yoga-tab3-plus_1024x1024.jpg?v=1491404819",
@@ -392,12 +406,13 @@
     "colors": ["White", "Black"],
     "quantity": 100,
     "sold": 85,
-    "totalRatings": 64
+    "totalRatings": 4
   },
   {
     "category": "Tablet",
     "name": "HUAWEI MEDIAPAD T1 70",
     "brand": "HUAWEI",
+    "thumb": "https://cdn.shopify.com/s/files/1/1903/4853/products/ss3_1024x1024.jpg?v=1491404819",
     "images": [
       "https://cdn.shopify.com/s/files/1/1903/4853/products/ss4_1024x1024.jpg?v=1491404838",
       "https://cdn.shopify.com/s/files/1/1903/4853/products/huawei-mediapad-t1-70-1_1024x1024.jpg?v=1491404838",
@@ -420,12 +435,13 @@
     "colors": ["BLACK", "GOLD", "WHITE"],
     "quantity": 120,
     "sold": 77,
-    "totalRatings": 47
+    "totalRatings": 5
   },
   {
     "category": "Tablet",
     "name": "ASUS ZENPAD 3 80 Z581KL",
     "brand": "ASUS",
+    "thumb": "https://cdn.shopify.com/s/files/1/1903/4853/products/ss4_1024x1024.jpg?v=1491404838",
     "images": [
       "https://cdn.shopify.com/s/files/1/1903/4853/products/ss9_1024x1024.jpg?v=1491404859",
       "https://cdn.shopify.com/s/files/1/1903/4853/products/asus-zenpad-3-80-z581kl-1_1024x1024.jpg?v=1491404859",
@@ -447,12 +463,13 @@
     "colors": ["BLACK", "GOLD", "WHITE"],
     "quantity": 110,
     "sold": 98,
-    "totalRatings": 47
+    "totalRatings": 1
   },
   {
     "category": "Tablet",
     "name": "APPLE IPAD PRO",
     "brand": "APPLE",
+    "thumb": "https://cdn.shopify.com/s/files/1/1903/4853/products/ss9_1024x1024.jpg?v=1491404859",
     "images": [
       "https://cdn.shopify.com/s/files/1/1903/4853/products/ss5_1024x1024.jpg?v=1491404844",
       "https://cdn.shopify.com/s/files/1/1903/4853/products/apple-ipad-pro-2_1024x1024.jpg?v=1491404844",
@@ -476,12 +493,13 @@
     "colors": ["SPACE GRAY", "SILVER", "GOLD"],
     "quantity": 542,
     "sold": 200,
-    "totalRatings": 124
+    "totalRatings": 2
   },
   {
     "category": "Tablet",
     "name": "APPLE IPAD AIR 2",
     "brand": "APPLE",
+    "thumb": "https://cdn.shopify.com/s/files/1/1903/4853/products/ss5_1024x1024.jpg?v=1491404844",
     "images": [
       "https://cdn.shopify.com/s/files/1/1903/4853/products/SS7_1_1024x1024.jpg?v=1491404862",
       "https://cdn.shopify.com/s/files/1/1903/4853/products/SS7_1024x1024.jpg?v=1491404862",
@@ -504,7 +522,7 @@
     "colors": ["SPACE GRAY", "SILVER", "GOLD"],
     "quantity": 533,
     "sold": 245,
-    "totalRatings": 451
+    "totalRatings": 3
   },
   {
     "category": "Laptop",
@@ -532,12 +550,13 @@
     "colors": ["SPACE GRAY", "SILVER", "GOLD"],
     "warranty": "warranty Information\nLIMITED WARRANTIESLimited Warranties are non-transferable. The following Limited Warranties are given to the original retail purchaser of the following Ashley Furniture Industries, Inc.Products:\nFrames Used In Upholstered and Leather ProductsLimited Lifetime warranty A Limited Lifetime warranty applies to all frames used in sofas, couches, love seats, upholstered chairs, ottomans, sectionals, and sleepers. Ashley Furniture Industries,Inc. warrants these components to you, the original retail purchaser, to be free from material manufacturing defects.",
     "quantity": 220,
-    "totalRatings": 330
+    "totalRatings": 4
   },
   {
     "category": "Laptop",
     "name": "HP PROBOOK 450",
     "brand": "HP",
+    "thumb": "https://cdn.shopify.com/s/files/1/1903/4853/products/SS7_1_1024x1024.jpg?v=1491404862",
     "images": [
       "https://cdn.shopify.com/s/files/1/1903/4853/products/z1_2_6dbdaadc-bd0c-454b-b4c1-395b60a2e2a7_1024x1024.jpg?v=1491404782",
       "https://cdn.shopify.com/s/files/1/1903/4853/products/z2_2_b21a3aa8-86ed-4338-985d-0bfca8fea6e0_1024x1024.jpg?v=1491404782",
@@ -559,12 +578,13 @@
     "colors": ["SPACE GRAY", "SILVER", "GOLD"],
     "quantity": 65,
     "sold": 14,
-    "totalRatings": 45
+    "totalRatings": 5
   },
   {
     "category": "Laptop",
     "name": "HP PAVILION 15 AU072TX",
     "brand": "HP",
+    "thumb": "https://cdn.shopify.com/s/files/1/1903/4853/products/z1_877559ca-7315-44b0-9f7f-f393bd0808bd_1024x1024.jpg?v=1491404790",
     "images": [
       "https://cdn.shopify.com/s/files/1/1903/4853/products/x2_1024x1024.jpg?v=1491404795",
       "https://cdn.shopify.com/s/files/1/1903/4853/products/x3_1024x1024.jpg?v=1491404795",
@@ -586,12 +606,13 @@
     "colors": ["SPACE GRAY", "SILVER", "GOLD"],
     "quantity": 456,
     "sold": 45,
-    "totalRatings": 223
+    "totalRatings": 1
   },
   {
     "category": "Laptop",
     "name": "DELL INSPIRON 7460",
     "brand": "DELL",
+    "thumb": "https://cdn.shopify.com/s/files/1/1903/4853/products/z1_2_6dbdaadc-bd0c-454b-b4c1-395b60a2e2a7_1024x1024.jpg?v=1491404782",
     "images": [
       "https://cdn.shopify.com/s/files/1/1903/4853/products/z1_2_8ad649f4-de63-464c-a7d1-7573c1b53a2d_1024x1024.jpg?v=1491404804",
       "https://cdn.shopify.com/s/files/1/1903/4853/products/z2_2_eda0eb59-ee79-4c50-b724-c9ed562d180b_1024x1024.jpg?v=1491404804",
@@ -613,12 +634,13 @@
     "colors": ["SPACE GRAY", "SILVER", "GOLD"],
     "quantity": 652,
     "sold": 300,
-    "totalRatings": 452
+    "totalRatings": 2
   },
   {
     "category": "Laptop",
     "name": "ASUS ROG G752VM",
     "brand": "ASUS",
+    "thumb": "https://cdn.shopify.com/s/files/1/1903/4853/products/x2_1024x1024.jpg?v=1491404795",
     "images": [
       "https://cdn.shopify.com/s/files/1/1903/4853/products/z1_1_33133681-0515-48fa-a6ee-fce4fc68afea_1024x1024.jpg?v=1491404807",
       "https://cdn.shopify.com/s/files/1/1903/4853/products/z2_1_f7b95ca1-d4cf-4b52-a22a-481db6b06c82_1024x1024.jpg?v=1491404807",
@@ -640,12 +662,13 @@
     "colors": ["RED", "BLUE", "WHITE"],
     "quantity": 530,
     "sold": 420,
-    "totalRatings": 236
+    "totalRatings": 3
   },
   {
     "category": "Laptop",
     "name": "APPLE MACBOOK PRO 13",
     "brand": "APPLE",
+    "thumb": "https://cdn.shopify.com/s/files/1/1903/4853/products/z1_2_8ad649f4-de63-464c-a7d1-7573c1b53a2d_1024x1024.jpg?v=1491404804",
     "images": [
       "https://cdn.shopify.com/s/files/1/1903/4853/products/z6_1_1024x1024.jpg?v=1491404800",
       "https://cdn.shopify.com/s/files/1/1903/4853/products/z4_1_4c7eeac9-df0b-4725-8a45-cb6c87b42eba_1024x1024.jpg?v=1491404800",
@@ -667,12 +690,13 @@
     "colors": ["RED", "BLUE", "WHITE"],
     "quantity": 130,
     "sold": 47,
-    "totalRatings": 65
+    "totalRatings": 4
   },
   {
     "category": "Laptop",
     "name": "APPLE MACBOOK AIR",
     "brand": "APPLE",
+    "thumb": "https://cdn.shopify.com/s/files/1/1903/4853/products/z1_1_33133681-0515-48fa-a6ee-fce4fc68afea_1024x1024.jpg?v=1491404807",
     "images": [
       "https://cdn.shopify.com/s/files/1/1903/4853/products/z1_4_1024x1024.jpg?v=1491404771",
       "https://cdn.shopify.com/s/files/1/1903/4853/products/z2_4_1024x1024.jpg?v=1491404771",
@@ -694,12 +718,13 @@
     "colors": ["RED", "BLUE", "WHITE"],
     "quantity": 245,
     "sold": 98,
-    "totalRatings": 100
+    "totalRatings": 5
   },
   {
     "category": "Laptop",
     "name": "ACER ASPIRE E5",
     "brand": "ACER",
+    "thumb": "https://cdn.shopify.com/s/files/1/1903/4853/products/z6_1_1024x1024.jpg?v=1491404800",
     "images": [
       "https://cdn.shopify.com/s/files/1/1903/4853/products/z1_1_00d0ce5d-e30b-4a9a-bffd-357614f67b8d_1024x1024.jpg?v=1491404787",
       "https://cdn.shopify.com/s/files/1/1903/4853/products/z2_1_bac0625f-a20a-431b-b73b-0ca2ec0e1495_1024x1024.jpg?v=1491404787",
@@ -721,12 +746,13 @@
     "colors": ["RED", "BLUE", "WHITE"],
     "quantity": 530,
     "sold": 300,
-    "totalRatings": 478
+    "totalRatings": 5
   },
   {
     "category": "Camera",
     "name": "USB SANDISK",
     "brand": "USB",
+    "thumb": "https://cdn.shopify.com/s/files/1/1903/4853/products/z1_4_1024x1024.jpg?v=1491404771",
     "images": [
       "https://cdn.shopify.com/s/files/1/1903/4853/products/z4_1b6e3a93-aa84-4a15-8324-deab9b1d4711_1024x1024.jpg?v=1491404811",
       "https://cdn.shopify.com/s/files/1/1903/4853/products/z5_1024x1024.jpg?v=1491404811"
@@ -743,13 +769,18 @@
     "colors": ["RED", "BLUE", "WHITE"],
     "quantity": 77,
     "sold": 65,
-    "totalRatings": 45
+    "totalRatings": 4
   },
   {
     "category": "Camera",
     "name": "SENNHEISER EZX 80",
     "brand": "SENNHEISER",
-    "images": [],
+    "thumb": "https://cdn.shopify.com/s/files/1/1903/4853/products/z1_1_00d0ce5d-e30b-4a9a-bffd-357614f67b8d_1024x1024.jpg?v=1491404787",
+    "images": [
+      "https://cdn.shopify.com/s/files/1/1903/4853/products/z1_1_00d0ce5d-e30b-4a9a-bffd-357614f67b8d_1024x1024.jpg?v=1491404787",
+      "https://cdn.shopify.com/s/files/1/1903/4853/products/z2_1_bac0625f-a20a-431b-b73b-0ca2ec0e1495_1024x1024.jpg?v=1491404787",
+      "https://cdn.shopify.com/s/files/1/1903/4853/products/z3_1_ab603453-7471-477c-a63d-987e838aca3b_1024x1024.jpg?v=1491404787"
+    ],
     "price": 1627469.8,
     "description": [
       "Long talk time – Up to 10 hours",
@@ -767,12 +798,13 @@
     "colors": ["RED", "BLUE", "WHITE"],
     "quantity": 64,
     "sold": 17,
-    "totalRatings": 45
+    "totalRatings": 3
   },
   {
     "category": "Camera",
     "name": "SAMSUNG GEAR VR",
     "brand": "SAMSUNG",
+    "thumb": "https://cdn.shopify.com/s/files/1/1903/4853/products/z4_1b6e3a93-aa84-4a15-8324-deab9b1d4711_1024x1024.jpg?v=1491404811",
     "images": [
       "https://cdn.shopify.com/s/files/1/1903/4853/products/z1_1_1024x1024.jpg?v=1491404913",
       "https://cdn.shopify.com/s/files/1/1903/4853/products/z2_1_1024x1024.jpg?v=1491404913",
@@ -793,12 +825,13 @@
     "colors": ["RED", "BLUE", "WHITE"],
     "quantity": 130,
     "sold": 98,
-    "totalRatings": 147
+    "totalRatings": 5
   },
   {
     "category": "Camera",
     "name": "MOTOROLA MOTO 360 2ND GEN",
     "brand": "MOTOROLA",
+    "thumb": "https://cdn.shopify.com/s/files/1/1903/4853/products/z1_2_1024x1024.jpg?v=1491404910",
     "images": [
       "https://cdn.shopify.com/s/files/1/1903/4853/products/Untitled-189_1024x1024.jpg?v=1491404918",
       "https://cdn.shopify.com/s/files/1/1903/4853/products/motorola-moto-360-2015-1_1024x1024.jpg?v=1491404918",
@@ -822,13 +855,19 @@
     "colors": ["BLACK LEATHER", "BLACK METAL", "ROSE GOLD", "SILVER"],
     "quantity": 130,
     "sold": 98,
-    "totalRatings": 147
+    "totalRatings": 2
   },
   {
     "category": "Camera",
     "name": "LOGITECH WIRELESS KEYBOARD MK240 NANO",
     "brand": "LOGITECH",
-    "images": [],
+    "thumb": "https://cdn.shopify.com/s/files/1/1903/4853/products/z1_1_1024x1024.jpg?v=1491404913",
+    "images": [
+      "https://cdn.shopify.com/s/files/1/1903/4853/products/z1_1_1024x1024.jpg?v=1491404913",
+      "https://cdn.shopify.com/s/files/1/1903/4853/products/z2_1_1024x1024.jpg?v=1491404913",
+      "https://cdn.shopify.com/s/files/1/1903/4853/products/z3_1_1024x1024.jpg?v=1491404913",
+      "https://cdn.shopify.com/s/files/1/1903/4853/products/z4_1_1024x1024.jpg?v=1491404913"
+    ],
     "price": 574095.87,
     "description": [
       "Dimensions: 139mm x 288mm x 21mm",
@@ -842,12 +881,13 @@
     ],
     "quantity": 130,
     "sold": 98,
-    "totalRatings": 147
+    "totalRatings": 2
   },
   {
     "category": "Camera",
     "name": "LOGITECH MX ANYWHERE 2",
     "brand": "LOGITECH",
+    "thumb": "https://cdn.shopify.com/s/files/1/1903/4853/products/Untitled-189_1024x1024.jpg?v=1491404918",
     "images": [
       "https://cdn.shopify.com/s/files/1/1903/4853/products/z3_5229b270-7b1c-4b40-8100-204f96c43f88_1024x1024.jpg?v=1491404814",
       "https://cdn.shopify.com/s/files/1/1903/4853/products/z1_377a4aa6-df39-466b-8234-d7c2f6f4ca1a_1024x1024.jpg?v=1491404814",
@@ -869,12 +909,13 @@
     "colors": ["BLACK", "NAVY BLUE", "STONE"],
     "quantity": 130,
     "sold": 98,
-    "totalRatings": 147
+    "totalRatings": 4
   },
   {
     "category": "Camera",
     "name": "JBL CHARGE 3",
     "brand": "JBL",
+    "thumb": "https://cdn.shopify.com/s/files/1/1903/4853/products/z6_1024x1024.jpg?v=1491404809",
     "images": [
       "https://cdn.shopify.com/s/files/1/1903/4853/products/z2_2_1024x1024.jpg?v=1491404907",
       "https://cdn.shopify.com/s/files/1/1903/4853/products/z3_2_1024x1024.jpg?v=1491404907",
@@ -895,12 +936,13 @@
     "colors": ["BLACK", "BLUE", "GREY", "RED", "TEAL"],
     "quantity": 130,
     "sold": 98,
-    "totalRatings": 147
+    "totalRatings": 3
   },
   {
     "category": "Camera",
     "name": "APPLE WATCH EDITION SERIES 2",
     "brand": "APPLE",
+    "thumb": "https://cdn.shopify.com/s/files/1/1903/4853/products/z1_377a4aa6-df39-466b-8234-d7c2f6f4ca1a_1024x1024.jpg?v=1491404814",
     "images": [
       "https://cdn.shopify.com/s/files/1/1903/4853/products/Untitled-123_1024x1024.jpg?v=1491404922",
       "https://cdn.shopify.com/s/files/1/1903/4853/products/apple-watch2-edition-42mm2_1024x1024.jpg?v=1491404922"
@@ -921,12 +963,13 @@
     "colors": ["WHITE", "SPORT BAND"],
     "quantity": 130,
     "sold": 98,
-    "totalRatings": 147
+    "totalRatings": 2
   },
   {
     "category": "Printer",
     "name": "USB SANDISK",
     "brand": "USB",
+    "thumb": "https://cdn.shopify.com/s/files/1/1903/4853/products/z2_2_1024x1024.jpg?v=1491404907",
     "images": [
       "https://cdn.shopify.com/s/files/1/1903/4853/products/z4_1b6e3a93-aa84-4a15-8324-deab9b1d4711_1024x1024.jpg?v=1491404811",
       "https://cdn.shopify.com/s/files/1/1903/4853/products/z5_1024x1024.jpg?v=1491404811"
@@ -943,12 +986,13 @@
     "colors": ["BLACK LEATHER", "BLACK METAL", "ROSE GOLD", "SILVER"],
     "quantity": 130,
     "sold": 98,
-    "totalRatings": 147
+    "totalRatings": 5
   },
   {
     "category": "Printer",
     "name": "SENNHEISER EZX 80",
     "brand": "SENNHEISER",
+    "thumb": "https://cdn.shopify.com/s/files/1/1903/4853/products/Untitled-123_1024x1024.jpg?v=1491404922",
     "images": [
       "https://cdn.shopify.com/s/files/1/1903/4853/products/z1_1_1024x1024.jpg?v=1491404913",
       "https://cdn.shopify.com/s/files/1/1903/4853/products/z2_1_1024x1024.jpg?v=1491404913"
@@ -970,12 +1014,13 @@
     "colors": ["BLACK LEATHER", "BLACK METAL", "ROSE GOLD", "SILVER"],
     "quantity": 130,
     "sold": 98,
-    "totalRatings": 147
+    "totalRatings": 3
   },
   {
     "category": "Printer",
     "name": "SAMSUNG GEAR VR",
     "brand": "SAMSUNG",
+    "thumb": "https://cdn.shopify.com/s/files/1/1903/4853/products/z4_1b6e3a93-aa84-4a15-8324-deab9b1d4711_1024x1024.jpg?v=1491404811",
     "images": [
       "https://cdn.shopify.com/s/files/1/1903/4853/products/z1_1_1024x1024.jpg?v=1491404913",
       "https://cdn.shopify.com/s/files/1/1903/4853/products/z2_1_1024x1024.jpg?v=1491404913",
@@ -996,12 +1041,13 @@
     "colors": ["BLACK LEATHER", "BLACK METAL", "ROSE GOLD", "SILVER"],
     "quantity": 130,
     "sold": 98,
-    "totalRatings": 147
+    "totalRatings": 4
   },
   {
     "category": "Printer",
     "name": "MOTOROLA MOTO 360 2ND GEN",
     "brand": "MOTOROLA",
+    "thumb": "https://cdn.shopify.com/s/files/1/1903/4853/products/z1_2_1024x1024.jpg?v=1491404910",
     "images": [
       "https://cdn.shopify.com/s/files/1/1903/4853/products/Untitled-189_1024x1024.jpg?v=1491404918",
       "https://cdn.shopify.com/s/files/1/1903/4853/products/motorola-moto-360-2015-1_1024x1024.jpg?v=1491404918",
@@ -1025,12 +1071,13 @@
     "colors": ["BLACK LEATHER", "BLACK METAL", "ROSE GOLD", "SILVER"],
     "quantity": 130,
     "sold": 98,
-    "totalRatings": 147
+    "totalRatings": 3
   },
   {
     "category": "Printer",
     "name": "LOGITECH WIRELESS KEYBOARD MK240 NANO",
     "brand": "LOGITECH",
+    "thumb": "https://cdn.shopify.com/s/files/1/1903/4853/products/z1_1_1024x1024.jpg?v=1491404913",
     "images": [
       "https://cdn.shopify.com/s/files/1/1903/4853/products/z3_5229b270-7b1c-4b40-8100-204f96c43f88_1024x1024.jpg?v=1491404814",
       "https://cdn.shopify.com/s/files/1/1903/4853/products/z1_377a4aa6-df39-466b-8234-d7c2f6f4ca1a_1024x1024.jpg?v=1491404814",
@@ -1050,12 +1097,13 @@
     "colors": ["BLACK LEATHER", "BLACK METAL", "ROSE GOLD", "SILVER"],
     "quantity": 130,
     "sold": 98,
-    "totalRatings": 147
+    "totalRatings": 5
   },
   {
     "category": "Printer",
     "name": "LOGITECH MX ANYWHERE 2",
     "brand": "LOGITECH",
+    "thumb": "https://cdn.shopify.com/s/files/1/1903/4853/products/Untitled-189_1024x1024.jpg?v=1491404918",
     "images": [
       "https://cdn.shopify.com/s/files/1/1903/4853/products/z3_5229b270-7b1c-4b40-8100-204f96c43f88_1024x1024.jpg?v=1491404814",
       "https://cdn.shopify.com/s/files/1/1903/4853/products/z1_377a4aa6-df39-466b-8234-d7c2f6f4ca1a_1024x1024.jpg?v=1491404814",
@@ -1077,12 +1125,13 @@
     "colors": ["BLACK", "NAVY BLUE", "STONE"],
     "quantity": 130,
     "sold": 98,
-    "totalRatings": 147
+    "totalRatings": 3
   },
   {
     "category": "Printer",
     "name": "JBL CHARGE 3",
     "brand": "JBL",
+    "thumb": "https://cdn.shopify.com/s/files/1/1903/4853/products/z6_1024x1024.jpg?v=1491404809",
     "images": [
       "https://cdn.shopify.com/s/files/1/1903/4853/products/z2_2_1024x1024.jpg?v=1491404907",
       "https://cdn.shopify.com/s/files/1/1903/4853/products/z3_2_1024x1024.jpg?v=1491404907",
@@ -1103,12 +1152,13 @@
     "colors": ["BLACK", "BLUE", "GREY", "RED", "TEAL"],
     "quantity": 130,
     "sold": 98,
-    "totalRatings": 147
+    "totalRatings": 5
   },
   {
     "category": "Printer",
     "name": "APPLE WATCH EDITION SERIES 2",
     "brand": "APPLE",
+    "thumb": "https://cdn.shopify.com/s/files/1/1903/4853/products/z1_377a4aa6-df39-466b-8234-d7c2f6f4ca1a_1024x1024.jpg?v=1491404814",
     "images": [
       "https://cdn.shopify.com/s/files/1/1903/4853/products/Untitled-123_1024x1024.jpg?v=1491404922",
       "https://cdn.shopify.com/s/files/1/1903/4853/products/apple-watch2-edition-42mm2_1024x1024.jpg?v=1491404922"
@@ -1129,12 +1179,13 @@
     "colors": ["WHITE", "SPORT BAND"],
     "quantity": 130,
     "sold": 98,
-    "totalRatings": 147
+    "totalRatings": 3
   },
   {
     "category": "Speaker",
     "name": "USB SANDISK",
     "brand": "USB",
+    "thumb": "https://cdn.shopify.com/s/files/1/1903/4853/products/z2_2_1024x1024.jpg?v=1491404907",
     "images": [
       "https://cdn.shopify.com/s/files/1/1903/4853/products/z4_1b6e3a93-aa84-4a15-8324-deab9b1d4711_1024x1024.jpg?v=1491404811",
       "https://cdn.shopify.com/s/files/1/1903/4853/products/z5_1024x1024.jpg?v=1491404811"
@@ -1151,13 +1202,17 @@
     "colors": ["BLACK", "BLUE", "GREY", "RED", "TEAL"],
     "quantity": 130,
     "sold": 98,
-    "totalRatings": 147
+    "totalRatings": 1
   },
   {
     "category": "Speaker",
     "name": "SENNHEISER EZX 80",
     "brand": "SENNHEISER",
-    "images": [],
+    "thumb": "https://cdn.shopify.com/s/files/1/1903/4853/products/Untitled-123_1024x1024.jpg?v=1491404922",
+    "images": [
+      "https://cdn.shopify.com/s/files/1/1903/4853/products/Untitled-123_1024x1024.jpg?v=1491404922",
+      "https://cdn.shopify.com/s/files/1/1903/4853/products/apple-watch2-edition-42mm2_1024x1024.jpg?v=1491404922"
+    ],
     "price": 1627469.8,
     "description": [
       "Long talk time – Up to 10 hours",
@@ -1175,12 +1230,13 @@
     "colors": ["BLACK", "BLUE", "GREY", "RED", "TEAL"],
     "quantity": 130,
     "sold": 98,
-    "totalRatings": 147
+    "totalRatings": 4
   },
   {
     "category": "Speaker",
     "name": "SAMSUNG GEAR VR",
     "brand": "SAMSUNG",
+    "thumb": "https://cdn.shopify.com/s/files/1/1903/4853/products/z4_1b6e3a93-aa84-4a15-8324-deab9b1d4711_1024x1024.jpg?v=1491404811",
     "images": [
       "https://cdn.shopify.com/s/files/1/1903/4853/products/z1_1_1024x1024.jpg?v=1491404913",
       "https://cdn.shopify.com/s/files/1/1903/4853/products/z2_1_1024x1024.jpg?v=1491404913",
@@ -1201,12 +1257,13 @@
     "colors": ["BLACK", "BLUE", "GREY", "RED", "TEAL"],
     "quantity": 130,
     "sold": 98,
-    "totalRatings": 147
+    "totalRatings": 2
   },
   {
     "category": "Speaker",
     "name": "MOTOROLA MOTO 360 2ND GEN",
     "brand": "MOTOROLA",
+    "thumb": "https://cdn.shopify.com/s/files/1/1903/4853/products/z1_2_1024x1024.jpg?v=1491404910",
     "images": [
       "https://cdn.shopify.com/s/files/1/1903/4853/products/Untitled-189_1024x1024.jpg?v=1491404918",
       "https://cdn.shopify.com/s/files/1/1903/4853/products/motorola-moto-360-2015-1_1024x1024.jpg?v=1491404918",
@@ -1230,13 +1287,19 @@
     "colors": ["BLACK LEATHER", "BLACK METAL", "ROSE GOLD", "SILVER"],
     "quantity": 130,
     "sold": 98,
-    "totalRatings": 147
+    "totalRatings": 5
   },
   {
     "category": "Speaker",
     "name": "LOGITECH WIRELESS KEYBOARD MK240 NANO",
     "brand": "LOGITECH",
-    "images": [],
+    "thumb": "https://cdn.shopify.com/s/files/1/1903/4853/products/z1_1_1024x1024.jpg?v=1491404913",
+    "images": [
+      "https://cdn.shopify.com/s/files/1/1903/4853/products/z1_1_1024x1024.jpg?v=1491404913",
+      "https://cdn.shopify.com/s/files/1/1903/4853/products/z2_1_1024x1024.jpg?v=1491404913",
+      "https://cdn.shopify.com/s/files/1/1903/4853/products/z3_1_1024x1024.jpg?v=1491404913",
+      "https://cdn.shopify.com/s/files/1/1903/4853/products/z4_1_1024x1024.jpg?v=1491404913"
+    ],
     "price": 574095.87,
     "description": [
       "Dimensions: 139mm x 288mm x 21mm",
@@ -1251,12 +1314,13 @@
     "colors": ["BLACK", "BLUE", "GREY", "RED", "TEAL"],
     "quantity": 130,
     "sold": 98,
-    "totalRatings": 147
+    "totalRatings": 2
   },
   {
     "category": "Speaker",
     "name": "LOGITECH MX ANYWHERE 2",
     "brand": "LOGITECH",
+    "thumb": "https://cdn.shopify.com/s/files/1/1903/4853/products/Untitled-189_1024x1024.jpg?v=1491404918",
     "images": [
       "https://cdn.shopify.com/s/files/1/1903/4853/products/z3_5229b270-7b1c-4b40-8100-204f96c43f88_1024x1024.jpg?v=1491404814",
       "https://cdn.shopify.com/s/files/1/1903/4853/products/z1_377a4aa6-df39-466b-8234-d7c2f6f4ca1a_1024x1024.jpg?v=1491404814",
@@ -1278,12 +1342,13 @@
     "colors": ["BLACK", "NAVY BLUE", "STONE"],
     "quantity": 130,
     "sold": 98,
-    "totalRatings": 147
+    "totalRatings": 3
   },
   {
     "category": "Speaker",
     "name": "JBL CHARGE 3",
     "brand": "JBL",
+    "thumb": "https://cdn.shopify.com/s/files/1/1903/4853/products/z6_1024x1024.jpg?v=1491404809",
     "images": [
       "https://cdn.shopify.com/s/files/1/1903/4853/products/z2_2_1024x1024.jpg?v=1491404907",
       "https://cdn.shopify.com/s/files/1/1903/4853/products/z3_2_1024x1024.jpg?v=1491404907",
@@ -1304,12 +1369,13 @@
     "colors": ["BLACK", "BLUE", "GREY", "RED", "TEAL"],
     "quantity": 130,
     "sold": 98,
-    "totalRatings": 147
+    "totalRatings": 5
   },
   {
     "category": "Speaker",
     "name": "APPLE WATCH EDITION SERIES 2",
     "brand": "APPLE",
+    "thumb": "https://cdn.shopify.com/s/files/1/1903/4853/products/z1_377a4aa6-df39-466b-8234-d7c2f6f4ca1a_1024x1024.jpg?v=1491404814",
     "images": [
       "https://cdn.shopify.com/s/files/1/1903/4853/products/Untitled-123_1024x1024.jpg?v=1491404922",
       "https://cdn.shopify.com/s/files/1/1903/4853/products/apple-watch2-edition-42mm2_1024x1024.jpg?v=1491404922"
@@ -1330,12 +1396,13 @@
     "colors": ["WHITE", "SPORT BAND"],
     "quantity": 130,
     "sold": 98,
-    "totalRatings": 147
+    "totalRatings": 2
   },
   {
     "category": "Accessories",
     "name": "SAMSUNG GEAR VR",
     "brand": "SAMSUNG",
+    "thumb": "https://cdn.shopify.com/s/files/1/1903/4853/products/z2_2_1024x1024.jpg?v=1491404907",
     "images": [
       "https://cdn.shopify.com/s/files/1/1903/4853/products/z1_1_1024x1024.jpg?v=1491404913",
       "https://cdn.shopify.com/s/files/1/1903/4853/products/z2_1_1024x1024.jpg?v=1491404913",
@@ -1356,12 +1423,13 @@
     "colors": ["WHITE", "SPORT BAND"],
     "quantity": 130,
     "sold": 98,
-    "totalRatings": 147
+    "totalRatings": 3
   },
   {
     "category": "Accessories",
     "name": "MOTOROLA MOTO 360 2ND GEN",
     "brand": "MOTOROLA",
+    "thumb": "https://cdn.shopify.com/s/files/1/1903/4853/products/Untitled-123_1024x1024.jpg?v=1491404922",
     "images": [
       "https://cdn.shopify.com/s/files/1/1903/4853/products/Untitled-189_1024x1024.jpg?v=1491404918",
       "https://cdn.shopify.com/s/files/1/1903/4853/products/motorola-moto-360-2015-1_1024x1024.jpg?v=1491404918",
@@ -1385,12 +1453,13 @@
     "colors": ["BLACK LEATHER", "BLACK METAL", "ROSE GOLD", "SILVER"],
     "quantity": 130,
     "sold": 98,
-    "totalRatings": 147
+    "totalRatings": 4
   },
   {
     "category": "Accessories",
     "name": "LOGITECH WIRELESS KEYBOARD MK240 NANO",
     "brand": "LOGITECH",
+    "thumb": "https://cdn.shopify.com/s/files/1/1903/4853/products/z1_1_1024x1024.jpg?v=1491404913",
     "images": [
       "https://cdn.shopify.com/s/files/1/1903/4853/products/z3_5229b270-7b1c-4b40-8100-204f96c43f88_1024x1024.jpg?v=1491404814",
       "https://cdn.shopify.com/s/files/1/1903/4853/products/z1_377a4aa6-df39-466b-8234-d7c2f6f4ca1a_1024x1024.jpg?v=1491404814",
@@ -1409,12 +1478,13 @@
     ],
     "quantity": 130,
     "sold": 98,
-    "totalRatings": 147
+    "totalRatings": 2
   },
   {
     "category": "Accessories",
     "name": "LOGITECH MX ANYWHERE 2",
     "brand": "LOGITECH",
+    "thumb": "https://cdn.shopify.com/s/files/1/1903/4853/products/Untitled-189_1024x1024.jpg?v=1491404918",
     "images": [
       "https://cdn.shopify.com/s/files/1/1903/4853/products/z3_5229b270-7b1c-4b40-8100-204f96c43f88_1024x1024.jpg?v=1491404814",
       "https://cdn.shopify.com/s/files/1/1903/4853/products/z1_377a4aa6-df39-466b-8234-d7c2f6f4ca1a_1024x1024.jpg?v=1491404814",
@@ -1436,12 +1506,13 @@
     "colors": ["BLACK", "NAVY BLUE", "STONE"],
     "quantity": 130,
     "sold": 98,
-    "totalRatings": 147
+    "totalRatings": 5
   },
   {
     "category": "Accessories",
     "name": "JBL CHARGE 3",
     "brand": "JBL",
+    "thumb": "https://cdn.shopify.com/s/files/1/1903/4853/products/z6_1024x1024.jpg?v=1491404809",
     "images": [
       "https://cdn.shopify.com/s/files/1/1903/4853/products/z2_2_1024x1024.jpg?v=1491404907",
       "https://cdn.shopify.com/s/files/1/1903/4853/products/z3_2_1024x1024.jpg?v=1491404907",
@@ -1462,12 +1533,13 @@
     "colors": ["BLACK", "BLUE", "GREY", "RED", "TEAL"],
     "quantity": 130,
     "sold": 98,
-    "totalRatings": 147
+    "totalRatings": 4
   },
   {
     "category": "Accessories",
     "name": "APPLE WATCH EDITION SERIES 2",
     "brand": "APPLE",
+    "thumb": "https://cdn.shopify.com/s/files/1/1903/4853/products/Untitled-123_1024x1024.jpg?v=1491404922",
     "images": [
       "https://cdn.shopify.com/s/files/1/1903/4853/products/Untitled-123_1024x1024.jpg?v=1491404922",
       "https://cdn.shopify.com/s/files/1/1903/4853/products/apple-watch2-edition-42mm2_1024x1024.jpg?v=1491404922"
@@ -1488,12 +1560,13 @@
     "colors": ["WHITE", "SPORT BAND"],
     "quantity": 130,
     "sold": 98,
-    "totalRatings": 147
+    "totalRatings": 2
   },
   {
     "category": "Accessories",
     "name": "USB SANDISK",
     "brand": "USB",
+    "thumb": "https://cdn.shopify.com/s/files/1/1903/4853/products/z1_377a4aa6-df39-466b-8234-d7c2f6f4ca1a_1024x1024.jpg?v=1491404814",
     "images": [
       "https://cdn.shopify.com/s/files/1/1903/4853/products/z4_1b6e3a93-aa84-4a15-8324-deab9b1d4711_1024x1024.jpg?v=1491404811",
       "https://cdn.shopify.com/s/files/1/1903/4853/products/z5_1024x1024.jpg?v=1491404811"
@@ -1510,12 +1583,13 @@
     "colors": ["WHITE", "SPORT BAND"],
     "quantity": 332,
     "sold": 98,
-    "totalRatings": 412
+    "totalRatings": 5
   },
   {
     "category": "Accessories",
     "name": "SENNHEISER EZX 80",
     "brand": "SENNHEISER",
+    "thumb": "https://cdn.shopify.com/s/files/1/1903/4853/products/z2_2_1024x1024.jpg?v=1491404907",
     "images": [
       "https://cdn.shopify.com/s/files/1/1903/4853/products/z4_1b6e3a93-aa84-4a15-8324-deab9b1d4711_1024x1024.jpg?v=1491404811",
       "https://cdn.shopify.com/s/files/1/1903/4853/products/z5_1024x1024.jpg?v=1491404811"
@@ -1537,12 +1611,13 @@
     "colors": ["WHITE", "SPORT BAND"],
     "quantity": 450,
     "sold": 412,
-    "totalRatings": 257
+    "totalRatings": 3
   },
   {
     "category": "Television",
     "name": "USB SANDISK",
     "brand": "USB",
+    "thumb": "https://cdn.shopify.com/s/files/1/1903/4853/products/Untitled-123_1024x1024.jpg?v=1491404922",
     "images": [
       "https://cdn.shopify.com/s/files/1/1903/4853/products/z4_1b6e3a93-aa84-4a15-8324-deab9b1d4711_1024x1024.jpg?v=1491404811",
       "https://cdn.shopify.com/s/files/1/1903/4853/products/z5_1024x1024.jpg?v=1491404811"
@@ -1558,13 +1633,17 @@
     ],
     "quantity": 750,
     "sold": 228,
-    "totalRatings": 369
+    "totalRatings": 2
   },
   {
     "category": "Television",
     "name": "SENNHEISER EZX 80",
     "brand": "SENNHEISER",
-    "images": [],
+    "thumb": "https://cdn.shopify.com/s/files/1/1903/4853/products/z4_1b6e3a93-aa84-4a15-8324-deab9b1d4711_1024x1024.jpg?v=1491404811",
+    "images": [
+      "https://cdn.shopify.com/s/files/1/1903/4853/products/z4_1b6e3a93-aa84-4a15-8324-deab9b1d4711_1024x1024.jpg?v=1491404811",
+      "https://cdn.shopify.com/s/files/1/1903/4853/products/z5_1024x1024.jpg?v=1491404811"
+    ],
     "price": 1627469.8,
     "description": [
       "Long talk time – Up to 10 hours",
@@ -1582,12 +1661,13 @@
     "colors": ["WHITE", "SPORT BAND"],
     "quantity": 110,
     "sold": 50,
-    "totalRatings": 147
+    "totalRatings": 5
   },
   {
     "category": "Television",
     "name": "SAMSUNG GEAR VR",
     "brand": "SAMSUNG",
+    "thumb": "https://cdn.shopify.com/s/files/1/1903/4853/products/z1_2_1024x1024.jpg?v=1491404910",
     "images": [
       "https://cdn.shopify.com/s/files/1/1903/4853/products/z1_1_1024x1024.jpg?v=1491404913",
       "https://cdn.shopify.com/s/files/1/1903/4853/products/z2_1_1024x1024.jpg?v=1491404913",
@@ -1608,12 +1688,13 @@
     "colors": ["WHITE", "SPORT BAND"],
     "quantity": 320,
     "sold": 111,
-    "totalRatings": 127
+    "totalRatings": 2
   },
   {
     "category": "Television",
     "name": "MOTOROLA MOTO 360 2ND GEN",
     "brand": "MOTOROLA",
+    "thumb": "https://cdn.shopify.com/s/files/1/1903/4853/products/z4_1b6e3a93-aa84-4a15-8324-deab9b1d4711_1024x1024.jpg?v=1491404811",
     "images": [
       "https://cdn.shopify.com/s/files/1/1903/4853/products/Untitled-189_1024x1024.jpg?v=1491404918",
       "https://cdn.shopify.com/s/files/1/1903/4853/products/motorola-moto-360-2015-1_1024x1024.jpg?v=1491404918",
@@ -1637,11 +1718,12 @@
     "colors": ["BLACK LEATHER", "BLACK METAL", "ROSE GOLD", "SILVER"],
     "quantity": 36,
     "sold": 31,
-    "totalRatings": 145
+    "totalRatings": 5
   },
   {
     "category": "Television",
     "name": "LOGITECH WIRELESS KEYBOARD MK240 NANO",
+    "thumb": "https://cdn.shopify.com/s/files/1/1903/4853/products/z1_2_1024x1024.jpg?v=1491404910",
     "brand": "LOGITECH",
     "images": [
       "https://cdn.shopify.com/s/files/1/1903/4853/products/z3_5229b270-7b1c-4b40-8100-204f96c43f88_1024x1024.jpg?v=1491404814",
@@ -1661,7 +1743,7 @@
     ],
     "quantity": 130,
     "sold": 91,
-    "totalRatings": 150
+    "totalRatings": 4
   },
   {
     "category": "Television",
@@ -1689,12 +1771,13 @@
     "colors": ["BLACK", "NAVY BLUE", "STONE"],
     "quantity": 730,
     "sold": 344,
-    "totalRatings": 235
+    "totalRatings": 4
   },
   {
     "category": "Television",
     "name": "JBL CHARGE 3",
     "brand": "JBL",
+    "thumb": "https://cdn.shopify.com/s/files/1/1903/4853/products/z1_1_1024x1024.jpg?v=1491404913",
     "images": [
       "https://cdn.shopify.com/s/files/1/1903/4853/products/z2_2_1024x1024.jpg?v=1491404907",
       "https://cdn.shopify.com/s/files/1/1903/4853/products/z3_2_1024x1024.jpg?v=1491404907",
@@ -1715,12 +1798,13 @@
     "colors": ["BLACK", "BLUE", "GREY", "RED", "TEAL"],
     "quantity": 30,
     "sold": 23,
-    "totalRatings": 47
+    "totalRatings": 5
   },
   {
     "category": "Television",
     "name": "APPLE WATCH EDITION SERIES 2",
     "brand": "APPLE",
+    "thumb": "https://cdn.shopify.com/s/files/1/1903/4853/products/Untitled-189_1024x1024.jpg?v=1491404918",
     "images": [
       "https://cdn.shopify.com/s/files/1/1903/4853/products/Untitled-123_1024x1024.jpg?v=1491404922",
       "https://cdn.shopify.com/s/files/1/1903/4853/products/apple-watch2-edition-42mm2_1024x1024.jpg?v=1491404922"
@@ -1741,6 +1825,6 @@
     "colors": ["WHITE", "SPORT BAND"],
     "quantity": 56,
     "sold": 12,
-    "totalRatings": 123
+    "totalRatings": 2
   }
 ]

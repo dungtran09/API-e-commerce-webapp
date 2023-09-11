@@ -11,11 +11,7 @@ router
     authsController.restrictTo("Admin"),
     productCategoriesController.createProductCategory,
   )
-  .get(
-    authsController.protect,
-    authsController.restrictTo("Admin"),
-    productCategoriesController.getAllProductCategories,
-  );
+  .get(productCategoriesController.getAllProductCategories);
 
 router
   .route("/:id")

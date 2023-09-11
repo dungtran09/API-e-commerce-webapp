@@ -2,6 +2,7 @@ const ProductCategory = require("../models/productCategoryModel");
 const FeaturesAPI = require("../utils/FeaturesAPI");
 const asyncErrorHandler = require("../utils/asyncErrorHandler");
 const CustomError = require("../utils/CustomError");
+const slugify = require("slugify");
 
 // SEND RESPONSE
 const send = (res, statusCode, productCategory) => {
@@ -37,14 +38,14 @@ exports.getProductCategory = asyncErrorHandler(async (req, res, next) => {
 
 // CREATE PRODUCT CATEGORY
 exports.createProductCategory = asyncErrorHandler(async (req, res, next) => {
-  console.log(req.body);
-
+  if (req.body.slug) req.body.slug = slugify(req.body.title);
   const newProductCategory = await ProductCategory.create(req.body);
   send(res, 200, newProductCategory);
 });
 
 // UPDATE PRODUCT CATEGORY
 exports.updateProductCategory = asyncErrorHandler(async (req, res, next) => {
+  if (req.body.slug) req.body.slug = slugify(req.body.title);
   const productCategory = await ProductCategory.findByIdAndUpdate(
     req.params.id,
     req.body,

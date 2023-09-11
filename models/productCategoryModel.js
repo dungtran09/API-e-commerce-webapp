@@ -8,6 +8,11 @@ const productCategorySchema = mongoose.Schema(
       unique: true,
       index: true,
     },
+    slug: {
+      type: String,
+      required: [true, "Slug can not be empty."],
+      unique: true,
+    },
     brand: {
       type: Array,
       required: [true, "Brand can not be empty."],

@@ -18,6 +18,7 @@ const createProduct = async (product) => {
     category: product?.category,
     quantity: product?.quantity,
     sold: product?.sold,
+    thumb: product?.thumb,
     images: product?.images,
     colors: product?.colors,
     totalRatings: product?.totalRatings,
@@ -42,6 +43,7 @@ exports.insertProducts = asyncErrorHandler(async (req, res, next) => {
 const createProductCategory = async (productCategory) => {
   await ProductCategory.create({
     title: productCategory?.title,
+    slug: productCategory?.slug,
     brand: productCategory?.brand,
   });
 };

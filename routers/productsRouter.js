@@ -18,11 +18,7 @@ router
 
 router
   .route("/")
-  .get(
-    authsController.protect,
-    authsController.restrictTo("Admin", "Guide"),
-    productsController.getAllProducts,
-  )
+  .get(productsController.getAllProducts)
   .post(
     authsController.protect,
     authsController.restrictTo("Admin", "Guide"),

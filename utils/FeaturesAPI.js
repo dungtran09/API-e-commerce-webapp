@@ -25,8 +25,7 @@ class FeaturesAPI {
   // SORT
   sort() {
     if (this.queryObj.sort) {
-      console.log(this.queryObj);
-      const sortBy = this.queryObj.sort(",").join(" ");
+      const sortBy = this.queryObj.sort.split(",").join(" ");
       this.query = this.query.sort(sortBy);
     } else {
       this.query = this.query.sort("-createdAt");

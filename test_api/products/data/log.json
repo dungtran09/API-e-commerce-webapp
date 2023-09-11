@@ -1,1 +1,1 @@
-{"status":"fail","message":"User belonging to this token no longer exist.","stack":"Error: User belonging to this token no longer exist.\n    at /home/dungtran/Workspaces/JavaScript/e-commerce-webapp/server/controllers/authsController.js:103:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+{"status":"success","message":"Load data successfully."}
