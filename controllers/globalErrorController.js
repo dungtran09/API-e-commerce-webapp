@@ -13,7 +13,7 @@ const errorDev = (err, req, res) => {
 // send errors if node env is production
 const errorProd = (err, req, res) => {
   if (err.isOperational) {
-    res.status(err.status).json({
+    res.status(err.statusCode).json({
       status: err.status,
       message: err.message,
     });
@@ -71,8 +71,6 @@ module.exports = (err, req, res, next) => {
   }
 
   if (process.env.NODE_ENV === "production") {
-    // console.log(err);
-
     if (err.name === "CastError") err = handlerCastError(err);
     if (err.name === "ValidationError") err = handlerValidationError(err);
     if (err.code === 11000) err = handlerDuplicateError(err);

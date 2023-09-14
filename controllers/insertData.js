@@ -45,6 +45,7 @@ const createProductCategory = async (productCategory) => {
     title: productCategory?.title,
     slug: productCategory?.slug,
     brand: productCategory?.brand,
+    image: productCategory?.image,
   });
 };
 

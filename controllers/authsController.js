@@ -39,7 +39,11 @@ const sendToken = (res, user, token, statusCode) => {
 
 // SIGN USER
 exports.signUp = asyncErrorHandler(async (req, res, next) => {
-  console.log(req.body);
+  const { firstName, lastName, email, phone } = req.body;
+
+  if (!firstName || lastName || email || phone) {
+    return next(new CustomError("Please provide all the fields.", 404));
+  }
 
   const newUser = await User.create(req.body);
 
@@ -65,12 +69,12 @@ exports.logIn = asyncErrorHandler(async (req, res, next) => {
   const token = createToken(user.id);
 
   // save token in to file TOKEN.txt (USING FOR test_api)
-  try {
-    fs.writeFileSync(`${__dirname}/../test_api/config/TOKEN.txt`, token);
-    console.log("Write Reset Token Successfully!");
-  } catch (error) {
-    console.log(error.message);
-  }
+  // try {
+  //   fs.writeFileSync(`${__dirname}/../test_api/config/TOKEN.txt`, token);
+  //   console.log("Write Reset Token Successfully!");
+  // } catch (error) {
+  //   console.log(error.message);
+  // }
 
   sendToken(res, user, token, 200);
 });

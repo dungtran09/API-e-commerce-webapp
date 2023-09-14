@@ -19,7 +19,7 @@ const brandsRouter = require("./routers/brandsRouter");
 const couponsRouter = require("./routers/couponsRouter");
 const ordersRouter = require("./routers/ordersRouter");
 
-// const insertDataRouter = require("./routers/insertDataRouter");
+const insertDataRouter = require("./routers/insertDataRouter");
 /*------------------------------------------------------------------------*/
 
 const app = express();
@@ -56,7 +56,7 @@ app.use(helmet());
 
 // limit rate
 const limiter = rateLimit({
-  max: 500,
+  max: 10000,
   windowMs: 60 * 60 * 1000,
   message: "Too many request from this IP, Please try again in an hour.",
 });
@@ -75,7 +75,7 @@ app.use("/api/v1/brands", brandsRouter);
 app.use("/api/v1/coupons", couponsRouter);
 app.use("/api/v1/orders", ordersRouter);
 
-// app.use("/api/v1/insert", insertDataRouter);
+app.use("/api/v1/insert", insertDataRouter);
 
 app.all("*", (req, res, next) => {
   next(new CustomError(`Url ${req.originalUrl} is not found.`, 404));

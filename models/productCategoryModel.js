@@ -17,6 +17,10 @@ const productCategorySchema = mongoose.Schema(
       type: Array,
       required: [true, "Brand can not be empty."],
     },
+    image: {
+      type: String,
+      required: [true, "Image can not be empty."],
+    },
   },
   { timestamps: true },
 );
