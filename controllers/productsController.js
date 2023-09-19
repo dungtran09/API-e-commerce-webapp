@@ -8,12 +8,14 @@ const slugify = require("slugify");
 const send = (res, statusCode, products) => {
   res.status(statusCode).json({
     status: "success",
+    results: products?.length,
     data: products,
   });
 };
 
 // GET PRODUCTS
 exports.getAllProducts = asyncErrorHandler(async (req, res, next) => {
+  console.log(req.body);
   const features = new FeaturesAPI(Product.find(), req.query)
     .filter()
     .limit()
@@ -151,4 +153,40 @@ exports.uploadImagesProduct = asyncErrorHandler(async (req, res, next) => {
   }
 
   send(res, 200, product);
+});
+
+exports.getColorsProduct = asyncErrorHandler(async (req, res, next) => {
+  const colors = await Product.aggregate([
+    { $unwind: "$colors" },
+    {
+      $group: {
+        _id: "$colors",
+        frequency: { $sum: 1 },
+      },
+    },
+    { $addFields: { color: "$_id" } },
+    { $project: { _id: 0 } },
+  ]);
+
+  if (!colors) {
+    return next(new CustomError("Colors products not found.", 404));
+  }
+  send(res, 200, colors);
+});
+
+exports.countProductsByCategory = asyncErrorHandler(async (req, res, next) => {
+  const result = await Product.aggregate([
+    { $match: { category: `${req.query.category}` } },
+    {
+      $group: { _id: "$category", totalItems: { $sum: 1 } },
+    },
+    {
+      $addFields: { category: { $toString: "$_id" } },
+    },
+    {
+      $project: { _id: 0 },
+    },
+  ]);
+
+  send(res, 200, result);
 });

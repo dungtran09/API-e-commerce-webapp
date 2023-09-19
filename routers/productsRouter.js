@@ -8,48 +8,44 @@ const router = express.Router();
 // PRODUCTS STATS
 // router.route("/product-stats").get(productsController.getProductsStats);
 
-router
-  .route("/ratings/:id")
-  .put(
-    authsController.protect,
-    authsController.restrictTo("Admin", "Guide"),
-    productsController.ratingsProduct,
-  );
+router.route("/colors").get(productsController.getColorsProduct);
+router.route("/count").get(productsController.countProductsByCategory);
 
-router
-  .route("/")
-  .get(productsController.getAllProducts)
-  .post(
-    authsController.protect,
-    authsController.restrictTo("Admin", "Guide"),
-    productsController.createProduct,
-  );
+router.route("/ratings/:id").put(
+  // authsController.protect,
+  // authsController.restrictTo("Admin", "Guide"),
+  productsController.ratingsProduct,
+);
+
+router.route("/").get(productsController.getAllProducts).post(
+  // authsController.protect,
+  // authsController.restrictTo("Admin", "Guide"),
+  productsController.createProduct,
+);
 
 router
   .route("/:id")
   .get(
-    authsController.protect,
-    authsController.restrictTo("Admin", "Guide"),
+    // authsController.protect,
+    // authsController.restrictTo("Admin", "Guide"),
     productsController.getProduct,
   )
   .patch(
-    authsController.protect,
-    authsController.restrictTo("Admin", "Guide"),
+    // authsController.protect,
+    // authsController.restrictTo("Admin", "Guide"),
     productsController.updateProduct,
   )
   .delete(
-    authsController.protect,
-    authsController.restrictTo("Admin", "Guide"),
+    // authsController.protect,
+    // authsController.restrictTo("Admin", "Guide"),
     productsController.deleteProduct,
   );
 
-router
-  .route("/uploadImagesProduct/:id")
-  .put(
-    authsController.protect,
-    authsController.restrictTo("Admin", "Guide"),
-    uploadCloud.array("images", 10),
-    productsController.uploadImagesProduct,
-  );
+router.route("/uploadImagesProduct/:id").put(
+  // authsController.protect,
+  // authsController.restrictTo("Admin", "Guide"),
+  // uploadCloud.array("images", 10),
+  productsController.uploadImagesProduct,
+);
 
 module.exports = router;

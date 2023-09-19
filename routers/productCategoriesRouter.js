@@ -7,8 +7,8 @@ const router = express.Router();
 router
   .route("/")
   .post(
-    authsController.protect,
-    authsController.restrictTo("Admin"),
+    // authsController.protect,
+    // authsController.restrictTo("Admin"),
     productCategoriesController.createProductCategory,
   )
   .get(productCategoriesController.getAllProductCategories);
@@ -16,18 +16,18 @@ router
 router
   .route("/:id")
   .get(
-    authsController.protect,
-    authsController.restrictTo("Admin"),
+    // authsController.protect,
+    // authsController.restrictTo("Admin"),
     productCategoriesController.getProductCategory,
   )
   .patch(
-    authsController.protect,
-    authsController.restrictTo("Admin"),
+    // authsController.protect,
+    // authsController.restrictTo("Admin"),
     productCategoriesController.updateProductCategory,
   )
   .delete(
-    authsController.protect,
-    authsController.restrictTo("Admin"),
+    // authsController.protect,
+    // authsController.restrictTo("Admin"),
     productCategoriesController.deleteProductCategory,
   );
 

@@ -13,12 +13,12 @@ class FeaturesAPI {
     );
 
     const excluded = ["page", "sort", "limit", "fields"];
-    Object.keys(queryObj).filter((key) =>
-      excluded.includes(key ? delete queryObj[key] : {}),
+
+    Object.keys(queryObj).filter((key, index) =>
+      excluded.includes(key) ? delete queryObj[key] : queryObj,
     );
 
     this.query = this.query.find(queryObj);
-
     return this;
   }
 
