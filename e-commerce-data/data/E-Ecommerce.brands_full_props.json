@@ -1,0 +1,270 @@
+[{
+  "_id": {
+    "$oid": "6509c98a8bf1036805615bf1"
+  },
+  "title": "HP",
+  "slug": "hp",
+  "logo": "https://cdn.tgdd.vn/Brand/1/logo-hp-149x40-1.png",
+  "createdAt": {
+    "$date": "2023-09-19T16:17:14.436Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-19T16:17:14.436Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6509c98a8bf1036805615bf5"
+  },
+  "title": "Dell",
+  "slug": "dell",
+  "logo": "https://cdn.tgdd.vn/Brand/1/logo-dell-149x40.png",
+  "createdAt": {
+    "$date": "2023-09-19T16:17:14.437Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-19T16:17:14.437Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6509c98a8bf1036805615bf2"
+  },
+  "title": "Asus",
+  "slug": "asus",
+  "logo": "https://cdn.tgdd.vn/Brand/1/logo-asus-149x40.png",
+  "createdAt": {
+    "$date": "2023-09-19T16:17:14.437Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-19T16:17:14.437Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6509c98a8bf1036805615bf4"
+  },
+  "title": "Acer",
+  "slug": "acer",
+  "logo": "https://cdn.tgdd.vn/Brand/1/logo-acer-149x40.png",
+  "createdAt": {
+    "$date": "2023-09-19T16:17:14.437Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-19T16:17:14.437Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6509c98a8bf1036805615bf3"
+  },
+  "title": "Lenovo",
+  "slug": "lenovo",
+  "logo": "https://cdn.tgdd.vn/Brand/1/logo-lenovo-149x40.png",
+  "createdAt": {
+    "$date": "2023-09-19T16:17:14.437Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-19T16:17:14.437Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6509c98a8bf1036805615bfa"
+  },
+  "title": "Masstel",
+  "slug": "Masstel",
+  "logo": "https://cdn.tgdd.vn/Brand/1/Masstel42-b0-200x48-1.png",
+  "createdAt": {
+    "$date": "2023-09-19T16:17:14.438Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-19T16:17:14.438Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6509c98a8bf1036805615bf8"
+  },
+  "title": "Itel",
+  "slug": "itel",
+  "logo": "https://cdn.tgdd.vn/Brand/1/logo-itel-149x40.png",
+  "createdAt": {
+    "$date": "2023-09-19T16:17:14.437Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-19T16:17:14.437Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6509c98a8bf1036805615bf9"
+  },
+  "title": "Gigabyte",
+  "slug": "gigabyte",
+  "logo": "https://cdn.tgdd.vn/Brand/1/logo-gigabyte-149x40.png",
+  "createdAt": {
+    "$date": "2023-09-19T16:17:14.437Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-19T16:17:14.437Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+        
+  },
+  "title": "SingPc",
+  "slug": "singpc",
+  "logo": "https://cdn.tgdd.vn/Brand/1/logo-singpc-149x40-1.jpg",
+  "createdAt": {
+    "$date": "2023-09-19T16:17:14.438Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-19T16:17:14.438Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6509c98a8bf1036805615bfb"
+  },
+  "title": "LG",
+  "slug": "lg",
+  "logo": "https://cdn.tgdd.vn/Brand/1/logo-lg-149x40.png",
+  "createdAt": {
+    "$date": "2023-09-19T16:17:14.438Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-19T16:17:14.438Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6509c98a8bf1036805615bfd"
+  },
+  "title": "Mobell",
+  "slug": "mobell",
+  "logo": "https://cdn.tgdd.vn/Brand/1/Mobell42-b_19.jpg",
+  "createdAt": {
+    "$date": "2023-09-19T16:17:14.438Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-19T16:17:14.438Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6509c98a8bf1036805615bff"
+  },
+  "title": "Vivo",
+  "slug": "vivo",
+  "logo": "https://cdn.tgdd.vn/Brand/1/vivo-logo-220-220x48-3.png",
+  "createdAt": {
+    "$date": "2023-09-19T16:17:14.438Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-19T16:17:14.438Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6509c98a8bf1036805615bfe"
+  },
+  "title": "Xiaomi",
+  "slug": "xiaomi",
+  "logo": "https://cdn.tgdd.vn/Brand/1/logo-xiaomi-220x48-5.png",
+  "createdAt": {
+    "$date": "2023-09-19T16:17:14.438Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-19T16:17:14.438Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6509c98a8bf1036805615c00"
+  },
+  "title": "Realme",
+  "slug": "realme",
+  "logo": "https://cdn.tgdd.vn/Brand/1/Realme42-b_37.png",
+  "createdAt": {
+    "$date": "2023-09-19T16:17:14.438Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-19T16:17:14.438Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6509c98a8bf1036805615c01"
+  },
+  "title": "Nokia",
+  "slug": "nokia",
+  "logo": "https://cdn.tgdd.vn/Brand/1/Nokia42-b_21.jpg",
+  "createdAt": {
+    "$date": "2023-09-19T16:17:14.438Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-19T16:17:14.438Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6509c98a8bf1036805615c02"
+  },
+  "title": "Ipad",
+  "slug": "ipad",
+  "logo": "https://cdn.tgdd.vn/Brand/1/iPad-(Apple)522-b_4.jpg",
+  "createdAt": {
+    "$date": "2023-09-19T16:17:14.438Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-19T16:17:14.438Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6509c98a8bf1036805615bf7"
+  },
+  "title": "MacBook",
+  "slug": "macbook",
+  "logo": "https://cdn.tgdd.vn/Brand/1/logo-msi-149x40.png",
+  "createdAt": {
+    "$date": "2023-09-19T16:17:14.437Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-19T16:17:14.437Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6509c98a8bf1036805615bf6"
+  },
+  "title": "Msi",
+  "slug": "msi",
+  "logo": "https://cdn.tgdd.vn/Brand/1/logo-msi-149x40.png",
+  "createdAt": {
+    "$date": "2023-09-19T16:17:14.437Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-19T16:17:14.437Z"
+  },
+  "__v": 0
+}]

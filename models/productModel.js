@@ -17,24 +17,40 @@ const productSchema = mongoose.Schema(
       trim: true,
       required: [true, "Thumb can not be empty."],
     },
-    images: [String],
     price: {
       type: Number,
       required: [true, "Price can not be empty."],
     },
     description: {
-      type: Array,
-      required: [true, "Description can not be empty."],
+      type: [
+        {
+          summary: String,
+          details: String,
+        },
+      ],
     },
     brand: {
-      type: String,
-      required: [true, "Branh can not be empty."],
+      type: mongoose.Types.ObjectId,
+      ref: "Brand",
     },
     category: {
-      type: String,
-      required: [true, "Category can not be empty."],
+      type: mongoose.Types.ObjectId,
+      ref: "ProductCategory",
     },
-    colors: [String],
+    configuration: [],
+    variants: {
+      type: [
+        {
+          colors: [
+            {
+              name: String,
+              image: String,
+            },
+          ],
+          storage_capacity: [String],
+        },
+      ],
+    },
     quantity: {
       type: Number,
       default: 0,

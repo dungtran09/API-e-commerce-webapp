@@ -1,0 +1,112 @@
+[
+  {
+    "title": "HP",
+    "slug": "hp",
+    "logo": "https://cdn.tgdd.vn/Brand/1/logo-hp-149x40-1.png"
+  },
+  {
+    "title": "Dell",
+    "slug": "dell",
+    "logo": "https://cdn.tgdd.vn/Brand/1/logo-dell-149x40.png"
+  },
+  {
+    "title": "Asus",
+    "slug": "asus",
+    "logo": "https://cdn.tgdd.vn/Brand/1/logo-asus-149x40.png"
+  },
+  {
+    "title": "Acer",
+    "slug": "acer",
+    "logo": "https://cdn.tgdd.vn/Brand/1/logo-acer-149x40.png"
+  },
+  {
+    "title": "Lenovo",
+    "slug": "lenovo",
+    "logo": "https://cdn.tgdd.vn/Brand/1/logo-lenovo-149x40.png"
+  },
+  {
+    "title": "Masstel",
+    "slug": "Masstel",
+    "logo": "https://cdn.tgdd.vn/Brand/1/Masstel42-b0-200x48-1.png"
+  },
+  {
+    "title": "Itel",
+    "slug": "itel",
+    "logo": "https://cdn.tgdd.vn/Brand/1/logo-itel-149x40.png"
+  },
+  {
+    "title": "Gigabyte",
+    "slug": "gigabyte",
+    "logo": "https://cdn.tgdd.vn/Brand/1/logo-gigabyte-149x40.png"
+  },
+  {
+    "title": "SingPc",
+    "slug": "singpc",
+    "logo": "https://cdn.tgdd.vn/Brand/1/logo-singpc-149x40-1.jpg"
+  },
+  {
+    "title": "LG",
+    "slug": "lg",
+    "logo": "https://cdn.tgdd.vn/Brand/1/logo-lg-149x40.png"
+  },
+  {
+    "title": "Mobell",
+    "slug": "mobell",
+    "logo": "https://cdn.tgdd.vn/Brand/1/Mobell42-b_19.jpg"
+  },
+  {
+    "title": "Vivo",
+    "slug": "vivo",
+    "logo": "https://cdn.tgdd.vn/Brand/1/vivo-logo-220-220x48-3.png"
+  },
+  {
+    "title": "Xiaomi",
+    "slug": "samsung",
+    "logo": "https://cdn.tgdd.vn/Brand/1/logo-xiaomi-220x48-5.png"
+  },
+  {
+    "title": "Realme",
+    "slug": "realme",
+    "logo": "https://cdn.tgdd.vn/Brand/1/Realme42-b_37.png"
+  },
+  {
+    "title": "Nokia",
+    "slug": "nokia",
+    "logo": "https://cdn.tgdd.vn/Brand/1/Nokia42-b_21.jpg"
+  },
+  {
+    "title": "Ipad",
+    "slug": "ipad",
+    "logo": "https://cdn.tgdd.vn/Brand/1/iPad-(Apple)522-b_4.jpg"
+  },
+  {
+    "title": "MacBook",
+    "slug": "macbook",
+    "logo": "https://cdn.tgdd.vn/Brand/1/logo-msi-149x40.png"
+  },
+  {
+    "title": "Msi",
+    "slug": "msi",
+    "logo": "https://cdn.tgdd.vn/Brand/1/logo-msi-149x40.png"
+  },
+  {
+    "title": "Surface",
+    "slug": "surface",
+    "logo": "https://cdn.tgdd.vn/Brand/1/logo-surface-149x40-1.png"
+  },
+  {
+    "title": "Iphone",
+    "slug": "iphone",
+    "logo": "https://cdn.tgdd.vn/Brand/1/logo-iphone-220x48.png"
+  },
+  {
+    "title": "Samsung",
+    "slug": "samsung",
+    "logo": "https://cdn.tgdd.vn/Brand/1/samsungnew-220x48-1.png"
+  },
+  {
+    "title": "Oppo",
+    "slug": "oppo",
+    "logo": "https://cdn.tgdd.vn/Brand/1/OPPO42-b_5.jpg"
+  }
+]

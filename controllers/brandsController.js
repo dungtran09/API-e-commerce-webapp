@@ -37,8 +37,6 @@ exports.getBrand = asyncErrorHandler(async (req, res, next) => {
 
 // CREATE BRAND
 exports.createBrand = asyncErrorHandler(async (req, res, next) => {
-  console.log(req.body);
-
   const newBrand = await Brand.create(req.body);
   send(res, 200, newBrand);
 });

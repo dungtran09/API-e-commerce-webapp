@@ -3,6 +3,7 @@ const FeaturesAPI = require("../utils/FeaturesAPI");
 const asyncErrorHandler = require("../utils/asyncErrorHandler");
 const CustomError = require("../utils/CustomError");
 const slugify = require("slugify");
+const Brand = require("../models/brandModel");
 
 // SEND RESPONSE
 const send = (res, statusCode, productCategory) => {
@@ -20,12 +21,18 @@ exports.getAllProductCategories = asyncErrorHandler(async (req, res, next) => {
     .limit()
     .pagination();
 
-  const productCategories = await features.query;
+  let productCategories = await features.query;
 
+  for (const category of productCategories) {
+    const brands = await Brand.find({ _id: { $in: category.brands } });
+    category.brands = brands;
+  }
+
+  // SEND RESPONSE
   send(res, 200, productCategories);
 });
 
-// GET AN PRODUCT CATEGORY
+// GET PRODUCT CATEGORY
 exports.getProductCategory = asyncErrorHandler(async (req, res, next) => {
   const productCategory = await ProductCategory.findById(req.params.id);
 

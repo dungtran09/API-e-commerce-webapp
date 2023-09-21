@@ -17,11 +17,15 @@ router.route("/ratings/:id").put(
   productsController.ratingsProduct,
 );
 
-router.route("/").get(productsController.getAllProducts).post(
-  // authsController.protect,
-  // authsController.restrictTo("Admin", "Guide"),
-  productsController.createProduct,
-);
+router
+  .route("/")
+  .get(productsController.getAllProducts)
+  .get(productsController.getProductsByCategoryId)
+  .post(
+    // authsController.protect,
+    // authsController.restrictTo("Admin", "Guide"),
+    productsController.createProduct,
+  );
 
 router
   .route("/:id")

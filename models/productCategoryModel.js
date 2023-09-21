@@ -4,7 +4,7 @@ const productCategorySchema = mongoose.Schema(
   {
     title: {
       type: String,
-      required: [true, "Product category must be a name."],
+      required: [true, "Title can not be empty."],
       unique: true,
       index: true,
     },
@@ -13,10 +13,7 @@ const productCategorySchema = mongoose.Schema(
       required: [true, "Slug can not be empty."],
       unique: true,
     },
-    brand: {
-      type: Array,
-      required: [true, "Brand can not be empty."],
-    },
+    brands: [{ type: mongoose.Schema.Types.ObjectId, ref: "Brand" }],
     image: {
       type: String,
       required: [true, "Image can not be empty."],
@@ -26,7 +23,7 @@ const productCategorySchema = mongoose.Schema(
 );
 
 const ProductCategory = mongoose.model(
-  "product-Category",
+  "product_category",
   productCategorySchema,
 );
 

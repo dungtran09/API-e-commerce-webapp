@@ -9,26 +9,26 @@ class FeaturesAPI {
     const queryStr = JSON.stringify(this.queryObj);
 
     const queryObj = JSON.parse(
-      queryStr.replace(/\b(gte|gt|lte|lt)\b/g, (match) => `$${match}`),
+      queryStr?.replace(/\b(gte|gt|lte|lt)\b/g, (match) => `$${match}`),
     );
 
     const excluded = ["page", "sort", "limit", "fields"];
 
-    Object.keys(queryObj).filter((key, index) =>
-      excluded.includes(key) ? delete queryObj[key] : queryObj,
+    Object.keys(queryObj)?.filter((key, index) =>
+      excluded?.includes(key) ? delete queryObj[key] : queryObj,
     );
 
-    this.query = this.query.find(queryObj);
+    this.query = this.query?.find(queryObj);
     return this;
   }
 
   // SORT
   sort() {
     if (this.queryObj.sort) {
-      const sortBy = this.queryObj.sort.split(",").join(" ");
-      this.query = this.query.sort(sortBy);
+      const sortBy = this.queryObj?.sort?.split(",").join(" ");
+      this.query = this.query?.sort(sortBy);
     } else {
-      this.query = this.query.sort("-createdAt");
+      this.query = this.query?.sort("-createdAt");
     }
     return this;
   }
@@ -36,10 +36,10 @@ class FeaturesAPI {
   // LIMIT FIELDS
   limit() {
     if (this.queryObj.fields) {
-      const fields = this.queryObj.fields.split(",").join(" ");
-      this.query = this.query.select(fields);
+      const fields = this.queryObj.fields?.split(",")?.join(" ");
+      this.query = this.query?.select(fields);
     } else {
-      this.query = this.query.select("-_v");
+      this.query = this.query?.select("-_v");
     }
 
     return this;
@@ -51,7 +51,7 @@ class FeaturesAPI {
     const limit = parseInt(this.queryObj.limit) || 10;
     const skip = (page - 1) * limit;
 
-    this.query = this.query.skip(skip).limit(limit);
+    this.query = this.query?.skip(skip)?.limit(limit);
 
     return this;
   }

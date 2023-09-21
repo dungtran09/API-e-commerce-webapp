@@ -12,6 +12,6 @@ const blogCategorySchema = mongoose.Schema(
   { timestamps: true },
 );
 
-const BlogCategory = mongoose.model("blog-Category", blogCategorySchema);
+const BlogCategory = mongoose.model("blog_category", blogCategorySchema);
 
 module.exports = BlogCategory;

@@ -1,0 +1,46 @@
+[
+  {
+    "title": "Dell Inspiron 15 3520 i5",
+    "slug": "dell-inspiron-15-3520-i5",
+    "thumb": "https://cdn.tgdd.vn/Products/Images/44/296921/dell-inspiron-15-3520-i5u085w11blu-ab-thumb-600x600.jpg",
+    "price": 16490000,
+    "description": [
+      {
+        "summary": "Laptop Dell Inspiron 15 3520 i5 1235U (i5U085W11BLU) là phiên bản laptop học tập - văn phòng của nhà Dell khi sở hữu phong cách thiết kế tối giản nhưng không kém phần trẻ trung, bộ vi xử lý Intel Gen 12 và bộ Office bản quyền vĩnh viễn đáp ứng đầy đủ mọi nhu cầu học tập, văn phòng của người dùng",
+        "details": "Laptop Dell Inspiron mang trên mình sức mạnh từ bộ vi xử lý Intel Core i5 1235U cùng card tích hợp Intel UHD giúp bạn giải quyết mượt mà mọi tác vụ học tập, văn phòng cơ bản trên Word, Excel, PowerPoint,... hay đáp ứng nhu cầu thiết kế đồ họa cơ bản trên Photoshop, AI,... dễ dàng nâng lên card Iris Xe mạnh mẽ hơn bằng cách lắp thêm RAM và kích hoạt Dual Channel."
+      }
+    ],
+    "brand": { "_id": "6509c98a8bf1036805615bf5" },
+    "category": { "_id": "6509eca858229563c1d28c28" },
+    "configuration": [
+      {
+        "cpu": "i51235U, 1.3GHz",
+        "ram": "8 GBDDR4 2 khe (1 khe 8 GB + 1 khe rời), 2666 MHz",
+        "hard_drive": "512 GB SSD NVMe PCIe, Hỗ trợ khe cắm HDD SATA (nâng cấp tối đa 2 TB)",
+        "screen": "15.6', Full HD (1920 x 1080) 120Hz",
+        "screen_card": "Card tích hợp, Intel UHD",
+        "connector": "HDMI1 x USB 2.02 x USB 3.2Jack tai nghe 3.5 mm",
+        "special": "",
+        "os": "Windows 11 Home SL + Office Home & Student vĩnh viễn",
+        "design_type": "Vỏ nhựa",
+        "size_volume": "Dài 358.5 mm - Rộng 235.56 mm - Dày 18.9 mm - Nặng 1.9 kg",
+        "release": 2022
+      }
+    ],
+    "variants": [
+      {
+        "colors": [
+          {
+            "name": "Bạc",
+            "image": "https://cdn.tgdd.vn/Products/Images/44/310768/acer-aspire-3-a314-36m-391a-i3-nxkdmsv002-glr-1-1.jpg"
+          }
+        ],
+        "storage_capacity": []
+      }
+    ],
+    "quantity": 140,
+    "sold": 100,
+    "ratings": [],
+    "totalRatings": 5.0
+  }
+]

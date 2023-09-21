@@ -1,3 +1,4 @@
+const { query } = require("express");
 const Product = require("../models/productModel");
 const asyncErrorHandler = require("../utils/asyncErrorHandler");
 const CustomError = require("../utils/CustomError");
@@ -15,8 +16,23 @@ const send = (res, statusCode, products) => {
 
 // GET PRODUCTS
 exports.getAllProducts = asyncErrorHandler(async (req, res, next) => {
-  console.log(req.body);
   const features = new FeaturesAPI(Product.find(), req.query)
+    .filter()
+    .limit()
+    .sort()
+    .pagination();
+
+  const products = await features.query;
+
+  send(res, 200, products);
+});
+
+// GET PRODUCT BY CATEGORY ID
+exports.getProductsByCategoryId = asyncErrorHandler(async (req, res, next) => {
+  const features = new FeaturesAPI(
+    Product.find({ category: { $in: _id } }),
+    req.query,
+  )
     .filter()
     .limit()
     .sort()

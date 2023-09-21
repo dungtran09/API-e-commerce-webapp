@@ -8,6 +8,18 @@ const brandSchema = mongoose.Schema(
       index: true,
       unique: true,
     },
+    slug: {
+      type: String,
+      required: [true, "Slug can not be empty."],
+      index: true,
+      unique: true,
+    },
+    logo: {
+      type: String,
+      required: [true, "Slug can not be empty."],
+      index: true,
+      unique: true,
+    },
   },
   { timestamps: true },
 );

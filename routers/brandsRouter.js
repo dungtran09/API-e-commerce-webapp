@@ -7,31 +7,31 @@ const router = express.Router();
 router
   .route("/")
   .post(
-    authsController.protect,
-    authsController.restrictTo("Admin", "Guide"),
+    // authsController.protect,
+    // authsController.restrictTo("Admin", "Guide"),
     brandsController.createBrand,
   )
   .get(
-    authsController.protect,
-    authsController.restrictTo("Admin", "Guide"),
+    // authsController.protect,
+    // authsController.restrictTo("Admin", "Guide"),
     brandsController.getAllBrands,
   );
 
 router
   .route("/:id")
   .get(
-    authsController.protect,
-    authsController.restrictTo("Admin", "Guide"),
+    // authsController.protect,
+    // authsController.restrictTo("Admin", "Guide"),
     brandsController.getBrand,
   )
   .patch(
-    authsController.protect,
-    authsController.restrictTo("Admin", "Guide"),
+    // authsController.protect,
+    // authsController.restrictTo("Admin", "Guide"),
     brandsController.updateBrand,
   )
   .delete(
-    authsController.protect,
-    authsController.restrictTo("Admin", "Guide"),
+    // authsController.protect,
+    // authsController.restrictTo("Admin", "Guide"),
     brandsController.deleteBrand,
   );
 

@@ -1,0 +1,89 @@
+[
+  {
+    "title": "Laptop",
+    "slug": "laptop",
+    "image": "https://img.freepik.com/free-vector/laptop-coloured_78370-510.jpg?w=826&t=st=1695149193~exp=1695149793~hmac=a0ed39bd10dc9dfae8e1ac659c7f63acd49bbabe8e234ad97003e431f585ddcd",
+    "brands": [
+      { "_id": "6509c98a8bf1036805615bf1" },
+      { "_id": "6509c98a8bf1036805615bf2" },
+      { "_id": "6509c98a8bf1036805615bf3" },
+      { "_id": "6509c98a8bf1036805615bf4" },
+      { "_id": "6509c98a8bf1036805615bf5" },
+      { "_id": "6509c98a8bf1036805615bf6" },
+      { "_id": "6509c98a8bf1036805615bf7" },
+      { "_id": "6509c98a8bf1036805615bf8" },
+      { "_id": "6509c98a8bf1036805615bf9" },
+      { "_id": "6509d282e5de7f1214b09a95" },
+      { "_id": "6509c98a8bf1036805615bfa" },
+      { "_id": "6509c98a8bf1036805615bfb" },
+      { "_id": "6509c98a8bf1036805615bfc" }
+    ]
+  },
+  {
+    "title": "Smartphone",
+    "slug": "smartphone",
+    "image": "https://img.freepik.com/free-vector/realistic-front-view-smartphone-mockup-mobile-iphone-purple-frame-with-blank-white-display-vector_90220-959.jpg?w=826&t=st=1695147840~exp=1695148440~hmac=fd99f70ce669160963b169f8368c7326cbd2982a968bcd87d714e33e6bfb213f",
+    "brands": [
+      { "_id": "6509d3c2881d16020349b50c" },
+      { "_id": "6509d6351c3a5a1ece38af70" },
+      { "_id": "6509d6ced7228be6ff1cf809" },
+      { "_id": "6509c98a8bf1036805615bfe" },
+      { "_id": "6509c98a8bf1036805615bff" },
+      { "_id": "6509c98a8bf1036805615c00" },
+      { "_id": "6509c98a8bf1036805615c01" },
+      { "_id": "6509c98a8bf1036805615bfa" },
+      { "_id": "6509c98a8bf1036805615bf8" },
+      { "_id": "6509c98a8bf1036805615bfd" }
+    ]
+  },
+  {
+    "title": "Tablet",
+    "slug": "tablet",
+    "image": "https://img.freepik.com/free-vector/digital-device-mockup_53876-89357.jpg?w=826&t=st=1695147865~exp=1695148465~hmac=020403a5b56c82b05f5a0fe41481fc40c9410de6af4063942844a253366f4757",
+    "brands": [
+      { "_id": "6509c98a8bf1036805615c02" },
+      { "_id": "6509d6351c3a5a1ece38af70" },
+      { "_id": "6509c98a8bf1036805615bfe" },
+      { "_id": "6509d6ced7228be6ff1cf809" },
+      { "_id": "6509c98a8bf1036805615bf3" },
+      { "_id": "6509c98a8bf1036805615bfa" },
+      { "_id": "6509c98a8bf1036805615bfd" }
+    ]
+  },
+  {
+    "title": "Camera",
+    "slug": "camera",
+    "image": "https://img.freepik.com/free-vector/analog-camera-outline-sticker-overlay-design-resource-vector_53876-170402.jpg?w=826&t=st=1695147794~exp=1695148394~hmac=eacf276d77238eb6fa3df7e22bd4a3c1b2f8f02f1e15b89d81b5a44d4e06c8be",
+    "brands": []
+  },
+  {
+    "title": "Speaker",
+    "slug": "speaker",
+    "image": "https://img.freepik.com/free-vector/large-speakers-isolated-icon_24877-58775.jpg?w=996&t=st=1695148792~exp=1695149392~hmac=a65b14c0179e633ccf48a59a839e63de828bd3bcf66b04d358fc98bb51a4b6e6",
+    "brands": []
+  },
+  {
+    "title": "Printer",
+    "slug": "printer",
+    "image": "https://img.freepik.com/free-vector/printer_53876-59954.jpg?w=826&t=st=1695148991~exp=1695149591~hmac=e9be855703525e6327aeba0745942cfa1ad2159f27313e0d243f296b859b6ab5",
+    "brands": []
+  },
+  {
+    "title": "Accessories",
+    "slug": "accessories",
+    "image": "https://img.freepik.com/free-vector/mobile-phone-accessories_23-2147510645.jpg?w=826&t=st=1695149102~exp=1695149702~hmac=c8faaf51b9e6c5c1b2a1bb2844761933a2d04bd2b06c736db3240719fb05f412",
+    "brands": []
+  },
+  {
+    "title": "Television",
+    "slug": "television",
+    "image": "https://img.freepik.com/free-vector/lcd-monitor-empty-white-flat-tv-screen-display-blank-technology-digital-electronic-equipment_1284-42804.jpg?w=826&t=st=1695148002~exp=1695148602~hmac=ff8c853c84169ecb773cf2abe7ba875db7d97acf40d21e4689704e86162fa4e5",
+    "brands": []
+  },
+  {
+    "title": "Smartwatch",
+    "slug": "smartwatch",
+    "image": "https://img.freepik.com/free-vector/fitness-trackers-flat-design_23-2148523733.jpg?w=826&t=st=1695148103~exp=1695148703~hmac=1731dd41a6d2ea5ce8d160a8924c456d5593b1e6061dd1dc30c4283d6eea513a",
+    "brands": []
+  }
+]
