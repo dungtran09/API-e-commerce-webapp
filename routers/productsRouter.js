@@ -10,9 +10,8 @@ const router = express.Router();
 
 router.route("/colors").get(productsController.getColorsProduct);
 router.route("/count").get(productsController.countProductsByCategory);
-
-router.route("/ratings/:id").put(
-  // authsController.protect,
+router.route("/ratings/:id").patch(
+  authsController.protect,
   // authsController.restrictTo("Admin", "Guide"),
   productsController.ratingsProduct,
 );
@@ -26,6 +25,7 @@ router
     // authsController.restrictTo("Admin", "Guide"),
     productsController.createProduct,
   );
+router.route("/search").get(productsController.getProductsByStringSearchFields);
 
 router
   .route("/:id")

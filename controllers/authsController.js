@@ -6,6 +6,7 @@ const { promisify } = require("util");
 const fs = require("fs");
 const sendEmail = require("../utils/Email");
 const crypto = require("crypto");
+const cookieParser = require("cookie-parser");
 
 // CREATE TOKEN
 const createToken = (id) => {
@@ -17,19 +18,19 @@ const createToken = (id) => {
 // SEND USER ON DB
 const sendToken = (res, user, token, statusCode) => {
   const cookieOptions = {
-    expries: new Date(
-      Date.now() + process.env.JWT_COOKIE_EXPRIES * 24 * 60 * 60 * 1000,
-    ),
-    httpOnly: true,
+    expries: new Date(Date.now() * 24 * 60 * 60 * 1000),
+    httpOnly: false,
+    satisfies: "strict",
   };
 
-  if (process.env.NODE_ENV === "production") {
-    cookieOptions.secure = true;
-  }
+  // if (process.env.NODE_ENV === "production") {
+  //   cookieOptions.secure = true;
+  // }
 
-  res.cookie("jwt", token, cookieOptions);
+  res.cookie("_jwt_user", token, cookieOptions);
 
   user.password = undefined;
+
   res.status(statusCode).json({
     status: "success",
     token,
@@ -39,10 +40,18 @@ const sendToken = (res, user, token, statusCode) => {
 
 // SIGN USER
 exports.signUp = asyncErrorHandler(async (req, res, next) => {
-  const { firstName, lastName, email, phone } = req.body;
+  const { firstName, lastName, email, password, passwordConfirm } = req.body;
 
-  if (!firstName || lastName || email || phone) {
+  if (!firstName || !lastName || !email || !password || !passwordConfirm) {
     return next(new CustomError("Please provide all the fields.", 404));
+  }
+
+  const isUserExists = await User.findOne({ email });
+
+  if (isUserExists) {
+    return next(
+      new CustomError("User already exitst. Please choose another.", 400),
+    );
   }
 
   const newUser = await User.create(req.body);
@@ -81,13 +90,8 @@ exports.logIn = asyncErrorHandler(async (req, res, next) => {
 
 // PROTECTING DATA
 exports.protect = asyncErrorHandler(async (req, res, next) => {
-  const testToken = req.headers.authorization;
-  let token;
-
-  // 1. check token and get
-  if (testToken || testToken?.startsWith("bearer")) {
-    token = testToken.split(" ")[1];
-  }
+  // 1. get token
+  const token = req.cookies["_jwt_user"];
 
   if (!token) {
     return next(new CustomError("You are not logged to access.", 401));

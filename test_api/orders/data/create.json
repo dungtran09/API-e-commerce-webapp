@@ -1,46 +1,21 @@
 {
-  "name": "APPLE WATCH EDITION SERIES 2",
-  "category": ["Television"],
-  "brand": "APPLE",
-  "thumb": "https://cdn.shopify.com/s/files/1/1903/4853/products/Untitled-123_1024x1024.jpg?v=1491404922",
-  "images": [
-    "https://cdn.shopify.com/s/files/1/1903/4853/products/Untitled-123_1024x1024.jpg?v=1491404922",
-    "https://cdn.shopify.com/s/files/1/1903/4853/products/apple-watch2-edition-42mm2_1024x1024.jpg?v=1491404922"
-  ],
-  "price": 8703425.47,
-  "description": [
-    "Technology: No cellular connectivity",
-    "Dimensions: 42.6 x 36.5 x 11.4 mm",
-    "Weight: 45.6 g",
-    "Display: AMOLED 1.6 inches",
-    "Resolution: 390 x 312",
-    "OS: watchOS 3.0",
-    "Chipset: Apple S2",
-    "CPU: Dual-core",
-    "Internal: No",
-    "Camera: No"
-  ],
-  "variants": [
+  "orderItems": [
     {
-      "label": "Type",
-      "variants": ["EDITION", "SPORT"]
+      "quantity": 3,
+      "color": "red",
+      "product_id": "651023c3957c79004fae3476"
     },
     {
-      "label": "Color",
-      "variants": ["WHITE", "SPORT BAND"]
-    },
-    {
-      "label": "Strap",
-      "variants": ["42MM", "38MM"]
+      "quantity": 2,
+      "color": "black",
+      "product_id": "651023c3957c79004fae3456"
     }
   ],
-  "infomations": {
-    "description": "Technology: No cellular connectivity\nDimensions: 42.6 x 36.5 x 11.4 mm\nWeight: 45.6 g\nDisplay: AMOLED 1.6 inches\nResolution: 390 x 312\nOS: watchOS 3.0\nChipset: Apple S2\nCPU: Dual-core\nInternal: No\nCamera: No\n",
-    "warranty": "Warranty Information\nLIMITED WARRANTIESLimited Warranties are non-transferable. The following Limited Warranties are given to the original retail purchaser of the following Ashley Furniture Industries, Inc.Products:\nFrames Used In Upholstered and Leather ProductsLimited Lifetime warranty A Limited Lifetime warranty applies to all frames used in sofas, couches, love seats, upholstered chairs, ottomans, sectionals, and sleepers. Ashley Furniture Industries,Inc. warrants these components to you, the original retail purchaser, to be free from material manufacturing defects.",
-    "delivery": "Purchasing & delivery\nBefore you make your purchase, it’s helpful to know the measurements of the area you plan to place the furniture. You should also measure any doorways and hallways through which the furniture will pass to get to its final destination.\nPicking up at the store\nShopify Shop requires that all products are properly inspected BEFORE you take it home to insure there are no surprises. Our team is happy to open all packages and will assist in the inspection process. We will then reseal packages for safe transport. We encourage all customers to bring furniture pads or blankets to protect the items during transport as well as rope or tie downs. Shopify Shop will not be responsible for damage that occurs after leaving the store or during transit. It is the purchaser’s responsibility to make sure the correct items are picked up and in good condition.\ndelivery\nCustomers are able to pick the next available delivery day that best fits their schedule. However, to route stops as efficiently as possible, Shopify Shop will provide the time frame. Customers will not be able to choose a time. You will be notified in advance of your scheduled time frame. Please make sure that a responsible adult (18 years or older) will be home at that time.\n\nIn preparation for your delivery, please remove existing furniture, pictures, mirrors, accessories, etc. to prevent damages. Also insure that the area where you would like your furniture placed is clear of any old furniture and any other items that may obstruct the passageway of the delivery team. Shopify Shop will deliver, assemble, and set-up your new furniture purchase and remove all packing materials from your home. Our delivery crews are not permitted to move your existing furniture or other household items. delivery personnel will attempt to deliver the purchased items in a safe and controlled manner but will not attempt to place furniture if they feel it will result in damage to the product or your home. delivery personnel are unable to remove doors, hoist furniture or carry furniture up more than 3 flights of stairs. An elevator must be available for deliveries to the 4th floor and above.",
-    "payment": "Purchasing & delivery\nBefore you make your purchase, it’s helpful to know the measurements of the area you plan to place the furniture. You should also measure any doorways and hallways through which the furniture will pass to get to its final destination.\nPicking up at the store\nShopify Shop requires that all products are properly inspected BEFORE you take it home to insure there are no surprises. Our team is happy to open all packages and will assist in the inspection process. We will then reseal packages for safe transport. We encourage all customers to bring furniture pads or blankets to protect the items during transport as well as rope or tie downs. Shopify Shop will not be responsible for damage that occurs after leaving the store or during transit. It is the purchaser’s responsibility to make sure the correct items are picked up and in good condition.\ndelivery\nCustomers are able to pick the next available delivery day that best fits their schedule. However, to route stops as efficiently as possible, Shopify Shop will provide the time frame. Customers will not be able to choose a time. You will be notified in advance of your scheduled time frame. Please make sure that a responsible adult (18 years or older) will be home at that time.\n\nIn preparation for your delivery, please remove existing furniture, pictures, mirrors, accessories, etc. to prevent damages. Also insure that the area where you would like your furniture placed is clear of any old furniture and any other items that may obstruct the passageway of the delivery team. Shopify Shop will deliver, assemble, and set-up your new furniture purchase and remove all packing materials from your home. Our delivery crews are not permitted to move your existing furniture or other household items. delivery personnel will attempt to deliver the purchased items in a safe and controlled manner but will not attempt to place furniture if they feel it will result in damage to the product or your home. delivery personnel are unable to remove doors, hoist furniture or carry furniture up more than 3 flights of stairs. An elevator must be available for deliveries to the 4th floor and above."
-  },
-  "quantity": 56,
-  "sold": 12,
-  "totalRatings": 123
+  "shipping_fee": 10000,
+  "firstName": "Dung",
+  "lastName": "Tran",
+  "shipping_address": "Vinh linh, Quang tri",
+  "email": "dung@gmail.com",
+  "phone": "0789654115",
+  "user_id": "651dba02650f33e951cf66d5"
 }

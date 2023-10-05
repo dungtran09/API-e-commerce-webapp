@@ -5,6 +5,8 @@ const productSchema = mongoose.Schema(
     title: {
       type: String,
       required: [true, "Product name can not be empty."],
+      index: true,
+      text: true,
     },
     slug: {
       type: String,
@@ -22,20 +24,29 @@ const productSchema = mongoose.Schema(
       required: [true, "Price can not be empty."],
     },
     description: {
-      type: [
-        {
-          summary: String,
-          details: String,
-        },
-      ],
+      type: Object,
+      index: true,
+      text: true,
     },
     brand: {
       type: mongoose.Types.ObjectId,
       ref: "Brand",
+      index: true,
+      text: true,
+    },
+    brandName: {
+      type: String,
+      text: true,
+      index: true,
     },
     category: {
       type: mongoose.Types.ObjectId,
       ref: "ProductCategory",
+    },
+    categoryName: {
+      type: String,
+      text: true,
+      index: true,
     },
     configuration: [],
     variants: {
@@ -63,7 +74,7 @@ const productSchema = mongoose.Schema(
       {
         star: { type: Number },
         postedBy: { type: mongoose.Types.ObjectId, ref: "User" },
-        comment: { type: String },
+        text: { type: String },
       },
     ],
     totalRatings: {

@@ -18,6 +18,7 @@ const productCategorySchema = mongoose.Schema(
       type: String,
       required: [true, "Image can not be empty."],
     },
+    product_id: { type: mongoose.Schema.Types.ObjectId, ref: "Product" },
   },
   { timestamps: true },
 );

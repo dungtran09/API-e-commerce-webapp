@@ -5,6 +5,7 @@ const mongoSanitize = require("express-mongo-sanitize");
 const xss = require("xss-clean");
 const hpp = require("hpp");
 const cors = require("cors");
+const cookieParser = require("cookie-parser");
 /*------------------------------------------------------------------------*/
 const express = require("express");
 const morgan = require("morgan");
@@ -26,6 +27,7 @@ const app = express();
 
 app.use(
   cors({
+    credentials: true,
     origin: process.env.CLIENT_URL,
     methods: ["POST", "PUT", "GET", "PATCH", "DELETE"],
   }),
@@ -52,6 +54,10 @@ app.use(express.urlencoded({ extended: true }));
 
 // secure header http
 app.use(helmet());
+
+// cookies
+app.use(cookieParser());
+
 /*------GLOBAL MIDDWARE------*/
 
 // limit rate

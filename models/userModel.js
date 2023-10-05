@@ -38,7 +38,11 @@ const userSchema = mongoose.Schema(
       type: Boolean,
       default: false,
     },
-    photo: String,
+    photo: {
+      type: String,
+      default:
+        "https://static-00.iconduck.com/assets.00/person-icon-512x512-qqken7c2.png",
+    },
     role: {
       type: String,
       emun: ["Admin", "Creator", "User", "Guide"],
@@ -46,8 +50,7 @@ const userSchema = mongoose.Schema(
     },
     phoneNumber: {
       type: String,
-      unique: true,
-      required: [true, "Provide your phone."],
+      // required: [true, "Provide your phone."],
     },
     password: {
       type: String,

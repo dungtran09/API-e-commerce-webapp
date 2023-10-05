@@ -15,10 +15,10 @@ const send = (res, statusCode, productCategory) => {
 
 // GET ALL PRODUCT CATEGORIES
 exports.getAllProductCategories = asyncErrorHandler(async (req, res, next) => {
+  console.log(req.query);
   const features = new FeaturesAPI(ProductCategory.find(), req.query)
     .filter()
     .sort()
-    .limit()
     .pagination();
 
   let productCategories = await features.query;

@@ -47,8 +47,8 @@ class FeaturesAPI {
 
   // PAGINATION
   pagination() {
-    const page = parseInt(this.queryObj.page) || 1;
-    const limit = parseInt(this.queryObj.limit) || 10;
+    const page = parseInt(this.queryObj?.page) || 1;
+    const limit = parseInt(this.queryObj?.limit) || 15;
     const skip = (page - 1) * limit;
 
     this.query = this.query?.skip(skip)?.limit(limit);

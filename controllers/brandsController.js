@@ -16,7 +16,6 @@ exports.getAllBrands = asyncErrorHandler(async (req, res, next) => {
   const features = new FeaturesAPI(Brand.find(), req.query)
     .filter()
     .sort()
-    .limit()
     .pagination();
 
   const brands = await features.query;

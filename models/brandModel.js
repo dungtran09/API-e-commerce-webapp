@@ -20,6 +20,7 @@ const brandSchema = mongoose.Schema(
       index: true,
       unique: true,
     },
+    product_id: { type: mongoose.Schema.Types.ObjectId, ref: "Product" },
   },
   { timestamps: true },
 );

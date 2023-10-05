@@ -58,12 +58,10 @@ router
     usersController.getAllUsers,
   );
 
-router
-  .route("/:id")
-  .get(
-    authsController.protect,
-    authsController.restrictTo("Admin", "Guide"),
-    usersController.getUser,
-  );
+router.route("/:id").get(
+  // authsController.protect,
+  // authsController.restrictTo("Admin", "Guide"),
+  usersController.getUser,
+);
 
 module.exports = router;

@@ -6,24 +6,29 @@ const ProductCategory = require("../models/productCategoryModel");
 const Brand = require("../models/brandModel");
 
 // data raw
-const products = require("../e-commerce-data/data/products.json");
-const productCategories = require("../e-commerce-data/data/E-Ecommerce.product_categories.json");
-const brands = require("../e-commerce-data/data/E-Ecommerce.brands.json");
+const products = require("../e-commerce-data/data/scraper_data/data.json");
+// const productCategories = require("../e-commerce-data/data/E-Ecommerce.product_categories.json");
+const brands = require("../e-commerce-data/data/brands.json");
+
+const brand = { _id: "6509c98a8bf1036805615bf7" };
+const category = { _id: "6509eca858229563c1d28c28" };
 
 const createProduct = async (product) => {
   await Product.create({
     title: product?.title,
-    slug: product?.slug,
+    slug: slugify(product?.title),
     thumb: product?.thumb,
-    price: product?.price,
+    price: product?.price || 0,
     description: product?.description,
-    brand: product?.brand,
-    category: product?.category,
+    brand: brand,
+    category: category,
     configuration: product?.configuration,
     variants: product?.variants,
-    quantity: product?.quantity,
-    sold: product?.sold,
-    totalRatings: product?.totalRatings,
+    quantity: Math.floor(Math.random() * (500 - 110 + 1) + 110),
+    sold: Math.floor(Math.random() * 101),
+    totalRatings: product?.totalRatings || 4.5,
+    categoryName: "",
+    brandName: "",
   });
 };
 

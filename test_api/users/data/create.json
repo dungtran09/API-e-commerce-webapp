@@ -1,10 +1,10 @@
 {
-  "firstName": "John",
-  "lastName": "John",
-  "email": "John@gmail.com",
-  "photo": "john-01.jpg",
-  "phoneNumber": "258963",
+  "firstName": "Dung",
+  "lastName": "Tran",
+  "address": "Vinh Linh, Quang Tri",
+  "email": "dung@gmail.com",
   "role": "Admin",
-  "password": "John1234",
-  "passwordConfirm": "John1234"
+  "phoneNumber": "0945885547",
+  "password": "Dung123!@#",
+  "passwordConfirm": "Dung123!@#"
 }
